@@ -3089,3 +3089,1047 @@ widgets:
 2025-11-13 12:55:30,751 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 12:55:30.751322
 2025-11-13 13:05:37,644 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:05:37.644038
 2025-11-13 13:15:37,635 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:15:37.634939
+2025-11-13 13:23:32,786 [INFO] [MainThread] [root/controller.py:15]: Reloading Application from tray...
+2025-11-13 13:23:32,905 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 13:23:32,905 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 13:23:32,944 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-13 13:23:32,944 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-13 13:23:32,949 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-13 13:23:32,962 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-13 13:23:32,965 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-13 13:23:36,845 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 13:23:36,847 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 13:23:36,848 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 13:23:38,408 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-13 13:23:43,879 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-13 13:23:44,892 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-13 13:23:44,893 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-13 13:23:44,895 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-13 13:23:44,977 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-13 13:23:44,977 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-13 13:23:44,978 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-13 13:23:45,417 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:23:45.417044
+2025-11-13 13:32:54,851 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 13:33:40,006 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:33:40.006230
+2025-11-13 13:44:22,042 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:44:22.042235
+2025-11-13 13:56:30,575 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 13:56:30.575185
+2025-11-13 14:06:30,724 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:06:30.724648
+2025-11-13 14:09:16,211 [INFO] [MainThread] [root/controller.py:15]: Reloading Bar from context menu...
+2025-11-13 14:09:16,324 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 14:09:16,324 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 14:09:16,420 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-13 14:09:16,420 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-13 14:09:16,446 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-13 14:09:16,453 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-13 14:09:16,457 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-13 14:09:17,052 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 14:09:17,053 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 14:09:17,054 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 14:09:17,354 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-13 14:09:18,128 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-13 14:09:18,655 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-13 14:09:18,658 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-13 14:09:18,658 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-13 14:09:18,745 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-13 14:09:18,746 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-13 14:09:18,747 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-13 14:09:18,988 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:09:18.988360
+2025-11-13 14:19:17,810 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:19:17.809780
+2025-11-13 14:29:17,628 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:29:17.628094
+2025-11-13 14:35:19,473 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 14:35:19,474 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 14:35:19,475 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 14:35:19,871 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-13 14:35:20,734 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-13 14:35:21,320 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-13 14:35:21,320 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-13 14:35:21,324 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-13 14:35:21,419 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-13 14:35:21,420 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-13 14:35:21,421 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-13 14:35:21,800 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:35:21.799967
+2025-11-13 14:45:20,296 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:45:20.296582
+2025-11-13 14:55:20,188 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 14:55:20.188563
+2025-11-13 14:58:24,996 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 15:05:20,140 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:05:20.140077
+2025-11-13 15:15:20,463 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:15:20.463075
+2025-11-13 15:25:20,315 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:25:20.315712
+2025-11-13 15:35:20,147 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:35:20.147722
+2025-11-13 15:45:20,335 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:45:20.334998
+2025-11-13 15:55:20,341 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 15:55:20.341046
+2025-11-13 16:05:20,329 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 16:05:20.329220
+2025-11-13 18:11:32,723 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-13 18:16:53,224 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 18:16:53.223976
+2025-11-13 18:26:53,088 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 18:26:53.088310
+2025-11-13 18:36:53,057 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 18:36:53.057758
+2025-11-13 18:46:53,232 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 18:46:53.231863
+2025-11-13 18:59:04,689 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-11-13 18:59:04,690 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-11-13 18:59:04,796 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 18:59:04,796 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 18:59:04,800 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-11-13 18:59:04,800 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-11-13 18:59:04,907 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 18:59:04,907 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 18:59:05,029 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-13 18:59:05,030 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-13 18:59:05,047 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-13 18:59:05,051 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-13 18:59:05,058 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-13 18:59:05,876 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 18:59:05,877 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 18:59:05,878 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 18:59:05,878 [INFO] [MainThread] [root/main.py:47]: Waiting for previous YASB instance to exit...
+2025-11-13 18:59:06,255 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-13 18:59:07,321 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-13 18:59:08,050 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-13 18:59:08,050 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-13 18:59:08,052 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-13 18:59:08,124 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-13 18:59:08,124 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-13 18:59:08,126 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-13 18:59:08,568 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 18:59:08.568200
+2025-11-13 18:59:15,907 [ERROR] [MainThread] [root/main.py:70]: Timeout waiting for previous instance. Aborting start.
+2025-11-13 19:09:06,696 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 19:09:06.695929
+2025-11-13 19:19:06,659 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 19:19:06.658893
+2025-11-13 19:29:06,549 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 19:29:06.549580
+2025-11-13 19:31:07,175 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 22:01:25,609 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:01:25.608982
+2025-11-13 22:04:26,948 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 22:06:26,023 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 22:11:20,441 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-13 22:11:25,671 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:11:25.671602
+2025-11-13 22:13:29,503 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-11-13 22:13:29,503 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-11-13 22:13:29,614 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 22:13:29,614 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 22:13:29,623 [INFO] [MainThread] [root/bar_manager.py:80]: Screens updated. Re-initialising all bars.
+2025-11-13 22:13:29,623 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of screen update.
+2025-11-13 22:13:29,726 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-13 22:13:29,726 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-13 22:13:29,806 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-13 22:13:29,807 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-13 22:13:29,883 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-13 22:13:29,890 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-13 22:13:29,892 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-13 22:13:30,164 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 22:13:30,165 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 22:13:30,165 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 22:13:30,330 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-13 22:13:30,331 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-13 22:13:30,332 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-13 22:13:30,332 [INFO] [MainThread] [root/main.py:47]: Waiting for previous YASB instance to exit...
+2025-11-13 22:13:30,423 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-13 22:13:30,948 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-13 22:13:31,283 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-13 22:13:31,284 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-13 22:13:31,286 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-13 22:13:31,337 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-13 22:13:31,337 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-13 22:13:31,339 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-13 22:13:31,505 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:13:31.505486
+2025-11-13 22:13:40,356 [ERROR] [MainThread] [root/main.py:70]: Timeout waiting for previous instance. Aborting start.
+2025-11-13 22:23:31,062 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:23:31.062467
+2025-11-13 22:33:31,234 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:33:31.234550
+2025-11-13 22:43:30,814 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:43:30.814396
+2025-11-13 22:53:30,962 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 22:53:30.962956
+2025-11-13 23:03:30,926 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:03:30.926144
+2025-11-13 23:13:31,172 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:13:31.172666
+2025-11-13 23:23:30,932 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:23:30.932564
+2025-11-13 23:33:30,969 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:33:30.969714
+2025-11-13 23:43:31,229 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:43:31.229109
+2025-11-13 23:53:30,902 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-13 23:53:30.902720
+2025-11-14 00:03:31,027 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:03:31.026973
+2025-11-14 00:13:31,169 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:13:31.169692
+2025-11-14 00:23:30,922 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:23:30.922514
+2025-11-14 00:33:30,798 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:33:30.798696
+2025-11-14 00:43:30,932 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:43:30.932304
+2025-11-14 00:53:30,823 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 00:53:30.823340
+2025-11-14 01:03:30,925 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:03:30.925206
+2025-11-14 01:13:30,955 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:13:30.955129
+2025-11-14 01:23:30,803 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:23:30.803083
+2025-11-14 01:33:31,170 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:33:31.170548
+2025-11-14 01:43:30,956 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:43:30.956297
+2025-11-14 01:53:31,113 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 01:53:31.113461
+2025-11-14 02:03:30,974 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 02:03:30.974010
+2025-11-14 02:13:30,844 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 02:13:30.844697
+2025-11-14 02:23:30,866 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 02:23:30.866223
+2025-11-14 02:33:31,018 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 02:33:31.017891
+2025-11-14 08:32:00,865 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 08:34:31,315 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 08:36:43,134 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 08:36:43.134375
+2025-11-14 08:46:43,913 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 08:46:43.913688
+2025-11-14 08:52:47,624 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 08:55:18,644 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-14 08:55:18,646 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-14 08:59:03,060 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-14 08:59:03,068 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-14 08:59:03,069 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-14 08:59:04,783 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-14 08:59:12,966 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-14 08:59:14,884 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-14 08:59:14,885 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-14 08:59:14,890 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-14 08:59:15,069 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-14 08:59:15,070 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-14 08:59:15,075 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-14 08:59:15,613 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 08:59:15.613263
+2025-11-14 09:07:13,841 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 09:19:40,722 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 09:19:40.722023
+2025-11-14 09:29:40,825 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 09:29:40.825236
+2025-11-14 09:34:18,817 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 09:41:28,085 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 09:41:48,331 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 09:41:48.331748
+2025-11-14 09:53:52,515 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 09:53:52.515669
+2025-11-14 10:04:39,353 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 10:04:39.353324
+2025-11-14 10:14:39,087 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 10:14:39.087074
+2025-11-14 10:51:15,960 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 10:55:25,259 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 10:55:25.259936
+2025-11-14 11:05:25,314 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 11:05:25.314650
+2025-11-14 11:15:25,428 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 11:15:25.428351
+2025-11-14 11:25:25,453 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 11:25:25.452982
+2025-11-14 12:08:25,298 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 12:15:49,189 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 12:15:49.189370
+2025-11-14 12:25:49,190 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 12:25:49.190346
+2025-11-14 12:43:33,986 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 12:43:33.986262
+2025-11-14 12:55:16,736 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 12:55:43,188 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 12:55:43.188515
+2025-11-14 13:08:57,376 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:08:57.376761
+2025-11-14 13:18:57,503 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:18:57.503681
+2025-11-14 13:28:57,711 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:28:57.711130
+2025-11-14 13:38:57,406 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:38:57.406406
+2025-11-14 13:48:57,415 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:48:57.415550
+2025-11-14 13:58:58,529 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 13:58:58.529563
+2025-11-14 14:08:57,980 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 14:08:57.980770
+2025-11-14 14:18:57,422 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 14:18:57.422356
+2025-11-14 14:28:57,627 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 14:28:57.627132
+2025-11-14 14:55:48,136 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 14:55:48.136342
+2025-11-14 15:05:48,091 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 15:05:48.091388
+2025-11-14 15:56:52,179 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 16:04:34,626 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 16:04:34.625986
+2025-11-14 16:14:34,707 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 16:14:34.707298
+2025-11-14 16:24:34,759 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 16:24:34.759473
+2025-11-14 16:34:34,598 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 16:34:34.597772
+2025-11-14 16:53:03,050 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 16:53:03.050265
+2025-11-14 17:03:03,107 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:03:03.107109
+2025-11-14 17:13:02,941 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:13:02.941773
+2025-11-14 17:23:02,945 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:23:02.945466
+2025-11-14 17:33:03,004 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:33:03.003989
+2025-11-14 17:43:02,958 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:43:02.958828
+2025-11-14 17:53:03,734 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 17:53:03.734391
+2025-11-14 17:57:02,701 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-11-14 18:46:34,895 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-14 21:02:31,116 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2025-11-14 21:02:31,116 [WARNING] [MainThread] [root/weather.py:524]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-11-14 21:02:42,147 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:02:42.147513
+2025-11-14 21:12:31,146 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:12:31.146521
+2025-11-14 21:22:30,890 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:22:30.890043
+2025-11-14 21:32:30,832 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:32:30.832099
+2025-11-14 21:42:31,121 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:42:31.120998
+2025-11-14 21:52:30,837 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 21:52:30.837699
+2025-11-14 22:02:30,829 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:02:30.828980
+2025-11-14 22:12:31,108 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:12:31.108747
+2025-11-14 22:22:30,834 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:22:30.834355
+2025-11-14 22:32:31,175 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:32:31.175486
+2025-11-14 22:42:31,031 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:42:31.031517
+2025-11-14 22:52:30,820 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 22:52:30.820621
+2025-11-14 23:02:31,042 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:02:31.041957
+2025-11-14 23:12:30,993 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:12:30.993568
+2025-11-14 23:22:31,044 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:22:31.044327
+2025-11-14 23:32:31,088 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:32:31.088636
+2025-11-14 23:42:30,988 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:42:30.988069
+2025-11-14 23:52:31,103 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-14 23:52:31.103287
+2025-11-15 00:02:30,973 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:02:30.973428
+2025-11-15 00:12:30,982 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:12:30.982426
+2025-11-15 00:22:31,016 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:22:31.016812
+2025-11-15 00:32:30,885 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:32:30.885518
+2025-11-15 00:42:31,009 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:42:31.009619
+2025-11-15 00:52:31,018 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 00:52:31.017999
+2025-11-15 01:02:31,009 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:02:31.009186
+2025-11-15 01:12:31,010 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:12:31.010016
+2025-11-15 01:22:30,899 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:22:30.899317
+2025-11-15 01:32:30,920 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:32:30.920213
+2025-11-15 01:42:31,252 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:42:31.252889
+2025-11-15 01:52:31,032 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 01:52:31.032590
+2025-11-15 02:02:31,018 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:02:31.018618
+2025-11-15 02:12:31,066 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:12:31.066921
+2025-11-15 02:22:31,049 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:22:31.049915
+2025-11-15 02:32:31,075 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:32:31.074914
+2025-11-15 02:42:31,116 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:42:31.115896
+2025-11-15 02:52:31,117 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 02:52:31.117854
+2025-11-15 03:02:31,050 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:02:31.049917
+2025-11-15 03:12:31,149 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:12:31.149636
+2025-11-15 03:22:30,957 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:22:30.957655
+2025-11-15 03:32:30,966 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:32:30.966713
+2025-11-15 03:42:31,101 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:42:31.101124
+2025-11-15 03:52:31,073 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 03:52:31.073743
+2025-11-15 04:02:31,072 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:02:31.072150
+2025-11-15 04:12:31,069 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:12:31.069319
+2025-11-15 04:22:30,939 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:22:30.939396
+2025-11-15 04:32:31,122 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:32:31.122036
+2025-11-15 04:42:31,137 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:42:31.137148
+2025-11-15 04:52:31,097 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 04:52:31.097131
+2025-11-15 05:02:31,073 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:02:31.073012
+2025-11-15 05:12:30,955 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:12:30.955246
+2025-11-15 05:22:31,108 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:22:31.108291
+2025-11-15 05:32:31,093 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:32:31.093155
+2025-11-15 05:42:31,085 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:42:31.085535
+2025-11-15 05:52:31,110 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 05:52:31.110680
+2025-11-15 06:02:31,059 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:02:31.059069
+2025-11-15 06:12:31,074 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:12:31.074368
+2025-11-15 06:22:31,120 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:22:31.120192
+2025-11-15 06:32:31,108 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:32:31.108003
+2025-11-15 06:42:31,107 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:42:31.106875
+2025-11-15 06:52:30,948 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 06:52:30.948584
+2025-11-15 07:02:30,912 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:02:30.912436
+2025-11-15 07:12:31,112 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:12:31.112300
+2025-11-15 07:22:30,945 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:22:30.945812
+2025-11-15 07:32:31,105 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:32:31.105567
+2025-11-15 07:42:31,081 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:42:31.081842
+2025-11-15 07:52:31,100 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 07:52:31.100500
+2025-11-15 08:02:30,939 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:02:30.938966
+2025-11-15 08:12:31,041 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:12:31.041224
+2025-11-15 08:22:31,104 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:22:31.104363
+2025-11-15 08:32:31,092 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:32:31.092316
+2025-11-15 08:43:00,715 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:43:00.715019
+2025-11-15 08:54:03,810 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 08:54:03.810878
+2025-11-15 09:04:03,933 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:04:03.933465
+2025-11-15 09:14:05,499 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:14:05.498939
+2025-11-15 09:24:03,812 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:24:03.812473
+2025-11-15 09:34:03,853 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:34:03.853376
+2025-11-15 09:44:03,980 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:44:03.980165
+2025-11-15 09:54:04,020 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 09:54:04.020693
+2025-11-15 10:22:49,733 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-11-15 10:29:14,133 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 10:29:14.133582
+2025-11-15 10:39:14,238 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 10:39:14.238498
+2025-11-15 10:49:14,174 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 10:49:14.174372
+2025-11-15 10:59:27,080 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 10:59:27.079906
+2025-11-15 11:14:55,415 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 11:14:55.415429
+2025-11-15 11:45:32,914 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 11:45:32.914672
+2025-11-15 11:55:32,921 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 11:55:32.921386
+2025-11-15 12:05:32,943 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 12:05:32.943697
+2025-11-15 12:07:52,024 [ERROR] [MainThread] [wifi_widget/wifi_managers.py:254]: Error scanning for WiFi networks: The wireless local area network interface is powered down and doesn't support the requested operation.
+2025-11-15 12:15:33,138 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 12:15:33.138329
+2025-11-15 13:49:50,372 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 13:49:50.371867
+2025-11-15 15:23:03,601 [ERROR] [MainThread] [wifi_widget/wifi_managers.py:254]: Error scanning for WiFi networks: The wireless local area network interface is powered down and doesn't support the requested operation.
+2025-11-15 15:28:24,413 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:28:24.413221
+2025-11-15 15:33:34,618 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:33:34,719 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:33:34,720 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:33:34,751 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:33:34,873 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:33:34,875 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:33:34,897 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:33:34,899 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:33:34,904 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:33:38,772 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:33:38,774 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:33:38,775 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:33:40,002 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:33:45,352 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:33:46,834 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:33:46,835 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:33:46,836 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:33:46,904 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:33:46,904 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:33:46,906 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:33:47,216 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:33:47.216152
+2025-11-15 15:34:46,311 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:34:46,419 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:34:46,420 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:34:46,437 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:34:46,533 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:34:46,533 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:34:46,581 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:34:46,602 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:34:46,628 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:34:47,014 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:34:47,015 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:34:47,016 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:34:47,286 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:34:48,035 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:34:48,528 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:34:48,529 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:34:48,530 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:34:48,591 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:34:48,591 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:34:48,592 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:34:48,604 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:34:48,604 [DEBUG] [MainThread] [systray_widget/systray.py:559]: State file not found.
+2025-11-15 15:34:48,609 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:34:48,610 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:34:48,615 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 4458186
+2025-11-15 15:34:48,615 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 4458186
+2025-11-15 15:34:48,662 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:34:48,689 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:34:48.689853
+2025-11-15 15:34:48,864 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 4458186
+2025-11-15 15:34:48,865 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:34:48,878 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:34:48,889 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:34:50,686 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:34:50,687 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:34:51,679 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:34:51,680 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:36:10,388 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:36:10,389 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:36:10,391 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:36:10,391 [DEBUG] [MainThread] [systray_widget/systray.py:539]: State file not found.
+2025-11-15 15:38:39,512 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:38:39,512 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:38:39,514 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:38:44,114 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:38:44,114 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:38:44,114 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:40:16,845 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:40:16,949 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:40:16,951 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:40:17,011 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:40:17,115 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:40:17,115 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:40:17,119 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:40:17,120 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:40:17,120 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:40:17,122 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4458186
+2025-11-15 15:40:17,123 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1378162
+2025-11-15 15:40:17,147 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:40:17,149 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:40:17,156 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:40:17,188 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1378162
+2025-11-15 15:40:17,188 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4458186
+2025-11-15 15:40:17,591 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:40:17,593 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:40:17,594 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:40:17,912 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:40:18,562 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:40:19,022 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:40:19,023 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:40:19,024 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:40:19,095 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:40:19,095 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:40:19,096 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:40:19,108 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:40:19,111 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:40:19,111 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:40:19,118 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 657488
+2025-11-15 15:40:19,118 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 657488
+2025-11-15 15:40:19,159 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:40:19,363 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 657488
+2025-11-15 15:40:19,366 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:40:19,390 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:40:19,403 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:40:19,404 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:40:19.404428
+2025-11-15 15:40:20,433 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:40:20,433 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:40:21,797 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:40:21,798 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:40:28,202 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:40:28,315 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:40:28,315 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:40:28,326 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:40:28,424 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:40:28,424 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:40:28,425 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:40:28,425 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:40:28,426 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:40:28,427 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 657488
+2025-11-15 15:40:28,428 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 7800894
+2025-11-15 15:40:28,487 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:40:28,492 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:40:28,496 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:40:28,525 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 7800894
+2025-11-15 15:40:28,525 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 657488
+2025-11-15 15:40:29,011 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:40:29,012 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:40:29,012 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:40:29,311 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:40:29,979 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:40:30,426 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:40:30,427 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:40:30,429 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:40:30,502 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:40:30,502 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:40:30,504 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:40:30,517 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:40:30,519 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:40:30,520 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:40:30,525 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 5703880
+2025-11-15 15:40:30,526 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5703880
+2025-11-15 15:40:30,572 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:40:30,619 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:40:30.619489
+2025-11-15 15:40:30,774 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5703880
+2025-11-15 15:40:30,775 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:40:30,790 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:40:30,800 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:40:31,816 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:40:31,817 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:40:33,137 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:40:33,138 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:41:04,603 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:41:04,716 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:41:04,716 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:41:04,723 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:41:04,814 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:41:04,814 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:41:04,815 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:41:04,817 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:41:04,819 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:41:04,821 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5703880
+2025-11-15 15:41:04,822 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 18352282
+2025-11-15 15:41:04,877 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:41:04,880 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:41:04,887 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:41:04,907 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 18352282
+2025-11-15 15:41:04,907 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5703880
+2025-11-15 15:41:05,331 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:41:05,332 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:41:05,333 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:41:05,651 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:41:06,325 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:41:06,789 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:41:06,791 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:41:06,791 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:41:06,863 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:41:06,864 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:41:06,865 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:41:06,876 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:41:06,878 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:41:06,878 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:41:06,886 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 525722
+2025-11-15 15:41:06,887 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 525722
+2025-11-15 15:41:06,935 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:41:06,962 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:41:06.962444
+2025-11-15 15:41:07,139 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 525722
+2025-11-15 15:41:07,140 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:41:07,154 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:41:07,169 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:41:08,192 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:41:08,193 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:41:09,465 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:41:09,466 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:04,893 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:42:05,005 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:42:05,006 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:42:05,028 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:42:05,136 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:42:05,137 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:42:05,140 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:05,140 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:42:05,141 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:05,142 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 525722
+2025-11-15 15:42:05,142 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5506866
+2025-11-15 15:42:05,187 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:42:05,190 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:42:05,195 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:42:05,220 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5506866
+2025-11-15 15:42:05,220 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 525722
+2025-11-15 15:42:05,741 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:42:05,742 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:42:05,742 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:42:06,009 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:42:06,616 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:42:07,067 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:42:07,070 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:42:07,071 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:42:07,137 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:42:07,137 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:42:07,139 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:42:07,149 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:07,152 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:42:07,152 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:42:07,159 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 724420
+2025-11-15 15:42:07,160 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724420
+2025-11-15 15:42:07,249 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:42:07,251 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:42:07.251609
+2025-11-15 15:42:07,452 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724420
+2025-11-15 15:42:07,453 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:42:07,470 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:42:07,485 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:42:08,505 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:08,505 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:09,820 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:09,821 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:21,877 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:42:21,982 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:42:21,983 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:42:21,998 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:42:22,113 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:42:22,114 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:42:22,117 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:22,117 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:42:22,118 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:22,120 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 724420
+2025-11-15 15:42:22,121 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 724612
+2025-11-15 15:42:22,164 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:42:22,185 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:42:22,191 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:42:22,212 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 724612
+2025-11-15 15:42:22,212 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 724420
+2025-11-15 15:42:22,681 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:42:22,683 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:42:22,684 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:42:23,003 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:42:23,612 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:42:24,110 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:42:24,112 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:42:24,112 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:42:24,177 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:42:24,177 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:42:24,180 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:42:24,192 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:24,195 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:42:24,195 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:42:24,201 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 5900488
+2025-11-15 15:42:24,202 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5900488
+2025-11-15 15:42:24,297 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:42:24,298 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:42:24.298334
+2025-11-15 15:42:24,499 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5900488
+2025-11-15 15:42:24,500 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:42:24,520 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:42:24,535 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:42:25,569 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:25,569 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:26,902 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:26,903 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:33,304 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:42:33,415 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:42:33,416 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:42:33,435 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:42:33,529 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:42:33,530 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:42:33,531 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:33,531 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:42:33,532 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:33,534 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5900488
+2025-11-15 15:42:33,535 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1443460
+2025-11-15 15:42:33,596 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:42:33,605 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:42:33,608 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:42:33,633 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1443460
+2025-11-15 15:42:33,633 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5900488
+2025-11-15 15:42:34,108 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:42:34,109 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:42:34,110 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:42:34,420 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:42:35,047 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:42:35,505 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:42:35,506 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:42:35,507 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:42:35,572 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:42:35,572 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:42:35,573 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:42:35,585 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:35,588 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:42:35,588 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:42:35,594 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 5966024
+2025-11-15 15:42:35,594 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5966024
+2025-11-15 15:42:35,647 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:42:35,677 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:42:35.677911
+2025-11-15 15:42:35,850 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 5966024
+2025-11-15 15:42:35,851 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:42:35,864 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:42:35,876 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:42:36,905 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:36,906 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:38,334 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:38,334 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:39,155 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:42:39,267 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:42:39,267 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:42:39,279 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:42:39,380 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:42:39,380 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:42:39,382 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:39,382 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:42:39,383 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:39,385 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5966024
+2025-11-15 15:42:39,386 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1641752
+2025-11-15 15:42:39,442 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:42:39,443 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:42:39,448 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:42:39,472 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1641752
+2025-11-15 15:42:39,472 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5966024
+2025-11-15 15:42:40,022 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:42:40,023 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:42:40,024 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:42:40,323 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:42:40,989 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:42:41,420 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:42:41,420 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:42:41,422 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:42:41,491 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:42:41,492 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:42:41,493 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:42:41,504 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:42:41,506 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:42:41,507 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:42:41,513 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 6031560
+2025-11-15 15:42:41,513 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 6031560
+2025-11-15 15:42:41,555 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:42:41,597 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:42:41.597128
+2025-11-15 15:42:41,758 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 6031560
+2025-11-15 15:42:41,759 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:42:41,773 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:42:41,785 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:42:42,814 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:42,814 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:42:44,153 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:42:44,154 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:29,943 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:46:30,049 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:46:30,049 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:46:30,060 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:46:30,154 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:46:30,155 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:46:30,156 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:30,157 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:46:30,157 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:46:30,158 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 6031560
+2025-11-15 15:46:30,159 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 8915180
+2025-11-15 15:46:30,179 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:46:30,179 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:46:30,182 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:46:30,220 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 8915180
+2025-11-15 15:46:30,220 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 6031560
+2025-11-15 15:46:30,668 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:46:30,669 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:46:30,670 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:46:30,943 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:46:31,602 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:46:32,048 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:46:32,049 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:46:32,052 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:46:32,127 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:46:32,127 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:46:32,129 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:46:32,141 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:46:32,143 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:46:32,143 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:46:32,152 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 2624326
+2025-11-15 15:46:32,152 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 2624326
+2025-11-15 15:46:32,200 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:46:32,404 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 2624326
+2025-11-15 15:46:32,405 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:46:32,419 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:46:32,430 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:46:32,573 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:46:32.573141
+2025-11-15 15:46:33,445 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:46:33,446 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:34,820 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:46:34,821 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:46,176 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-11-15 15:46:46,281 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-11-15 15:46:46,282 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-11-15 15:46:46,292 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-11-15 15:46:46,389 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-11-15 15:46:46,390 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-11-15 15:46:46,391 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:46,392 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 15:46:46,392 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:46:46,393 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2624326
+2025-11-15 15:46:46,394 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 19138096
+2025-11-15 15:46:46,443 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-11-15 15:46:46,456 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-11-15 15:46:46,459 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-11-15 15:46:46,479 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 19138096
+2025-11-15 15:46:46,479 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2624326
+2025-11-15 15:46:46,875 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 15:46:46,876 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 15:46:46,876 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 15:46:47,172 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 15:46:47,812 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 15:46:48,351 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 15:46:48,351 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 15:46:48,354 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 15:46:48,416 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 15:46:48,416 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 15:46:48,418 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 15:46:48,429 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 15:46:48,431 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 15:46:48,432 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 15:46:48,440 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 724876
+2025-11-15 15:46:48,440 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724876
+2025-11-15 15:46:48,487 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 15:46:48,520 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:46:48.520059
+2025-11-15 15:46:48,688 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724876
+2025-11-15 15:46:48,689 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 15:46:48,703 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 15:46:48,715 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 15:46:49,731 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:46:49,731 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:46:51,087 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:46:51,087 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:50:11,724 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 15:50:11,724 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 15:56:47,429 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 15:56:47.429904
+2025-11-15 16:06:47,607 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 16:06:47.606859
+2025-11-15 17:23:31,700 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 17:23:31,700 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:29:50,937 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 17:29:50.936979
+2025-11-15 17:33:56,004 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:33:56,006 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 17:33:56,009 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 17:33:58,966 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:33:58,967 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 17:33:58,969 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 17:34:00,034 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:34:00,035 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 17:34:00,036 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 17:34:02,395 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:34:02,396 [DEBUG] [MainThread] [systray_widget/systray.py:527]: Saving state to disk
+2025-11-15 17:34:02,398 [DEBUG] [MainThread] [systray_widget/systray.py:531]: Saving state to C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 17:34:40,029 [ERROR] [MainThread] [wifi_widget/wifi_managers.py:254]: Error scanning for WiFi networks: The wireless local area network interface is powered down and doesn't support the requested operation.
+2025-11-15 17:35:14,752 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 17:35:14,753 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:35:28,581 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 17:35:28,582 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:39:50,953 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 17:39:50.953209
+2025-11-15 17:41:25,125 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 17:41:29,050 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724876
+2025-11-15 17:41:32,978 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 204734739
+2025-11-15 17:41:34,086 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 17:41:34,087 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 17:49:50,953 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 17:49:50.953417
+2025-11-15 17:59:21,453 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 17:59:23,740 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 724876
+2025-11-15 17:59:23,799 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 204734739
+2025-11-15 17:59:51,488 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 17:59:51.488457
+2025-11-15 18:10:01,029 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:10:01,030 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:10:01,031 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:10:01,659 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:10:05,287 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:10:06,269 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:10:06,270 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:10:06,271 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:10:06,345 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:10:06,345 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:10:06,347 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:10:06,362 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:10:06,384 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:10:06,384 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:10:06,392 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 459800
+2025-11-15 18:10:06,393 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 459800
+2025-11-15 18:10:06,483 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:10:06,686 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 459800
+2025-11-15 18:10:06,686 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:10:06,702 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:10:06,717 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:10:06,796 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:10:06.796079
+2025-11-15 18:10:07,750 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:10:07,750 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:10:09,272 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:10:09,272 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:10:45,859 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:10:45,860 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:10:45,861 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:10:45,862 [ERROR] [MainThread] [root/main.py:76]: Another instance of the YASB is already running.
+2025-11-15 18:10:46,025 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:10:46,026 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:11:49,908 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:11:49,909 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:11:49,910 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:11:50,186 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:11:50,812 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:11:51,302 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:11:51,304 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:11:51,304 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:11:51,368 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:11:51,368 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:11:51,371 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:11:51,385 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:11:51,387 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:11:51,387 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:11:51,395 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 329260
+2025-11-15 18:11:51,395 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 329260
+2025-11-15 18:11:51,438 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:11:51,476 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:11:51.475960
+2025-11-15 18:11:51,640 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 329260
+2025-11-15 18:11:51,641 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:11:51,653 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:11:51,668 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:11:52,686 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:11:52,686 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:11:54,073 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:11:54,074 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:14:22,628 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:14:22,629 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:14:22,630 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:14:22,906 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:14:23,565 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:14:24,031 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:14:24,031 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:14:24,033 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:14:24,098 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:14:24,099 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:14:24,100 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:14:24,111 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:14:24,114 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:14:24,115 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:14:24,121 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 788018
+2025-11-15 18:14:24,122 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 788018
+2025-11-15 18:14:24,218 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:14:24,420 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 788018
+2025-11-15 18:14:24,421 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:14:24,436 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:14:24,451 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:14:24,517 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:14:24.517273
+2025-11-15 18:14:25,470 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:14:25,471 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:14:26,875 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:14:26,875 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:14:36,600 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:14:36,601 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:14:36,601 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:14:36,894 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:14:37,547 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:14:37,984 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:14:37,986 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:14:37,986 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:14:38,044 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:14:38,044 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:14:38,047 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:14:38,059 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:14:38,062 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:14:38,063 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:14:38,068 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 7406906
+2025-11-15 18:14:38,069 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 7406906
+2025-11-15 18:14:38,175 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:14:38,178 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:14:38.178107
+2025-11-15 18:14:38,377 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 7406906
+2025-11-15 18:14:38,378 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:14:38,388 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:14:38,401 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:14:40,901 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:14:40,902 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:15:27,029 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:15:27,030 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:15:27,030 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:15:27,324 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:15:27,987 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:15:28,440 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:15:28,442 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:15:28,443 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:15:28,508 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:15:28,508 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:15:28,511 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:15:28,525 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:15:28,527 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:15:28,527 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:15:28,533 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 1508762
+2025-11-15 18:15:28,533 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1508762
+2025-11-15 18:15:28,639 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:15:28,755 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:15:28.755826
+2025-11-15 18:15:28,843 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1508762
+2025-11-15 18:15:28,843 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:15:28,855 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:15:28,866 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:15:29,884 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:15:29,884 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:15:31,394 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:15:31,395 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:20:21,939 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 18:20:21,941 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 18:20:21,942 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 18:20:22,232 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 18:20:22,963 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 18:20:23,487 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 18:20:23,489 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 18:20:23,490 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 18:20:23,555 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 18:20:23,555 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 18:20:23,562 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 18:20:23,576 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 18:20:23,578 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 18:20:23,578 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 18:20:23,594 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 1313854
+2025-11-15 18:20:23,595 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1313854
+2025-11-15 18:20:23,622 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 18:20:23,826 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1313854
+2025-11-15 18:20:23,829 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 18:20:23,852 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 18:20:23,862 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:20:23.862801
+2025-11-15 18:20:23,866 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 18:20:24,905 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:20:24,905 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:20:26,330 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 18:20:26,331 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 18:30:22,493 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:30:22.493033
+2025-11-15 18:40:22,512 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:40:22.511953
+2025-11-15 18:50:22,678 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 18:50:22.678378
+2025-11-15 19:00:22,549 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 19:00:22.549501
+2025-11-15 19:01:00,830 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 19:01:00,832 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 19:01:00,832 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 19:01:01,109 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 19:01:01,715 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 19:01:02,191 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 19:01:02,191 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 19:01:02,193 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 19:01:02,247 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 19:01:02,248 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 19:01:02,249 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 19:01:02,260 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 19:01:02,263 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 19:01:02,263 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 19:01:02,270 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 1312326
+2025-11-15 19:01:02,271 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1312326
+2025-11-15 19:01:02,312 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 19:01:02,358 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 19:01:02.358246
+2025-11-15 19:01:02,514 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 1312326
+2025-11-15 19:01:02,515 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 19:01:02,526 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 19:01:02,539 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 19:01:04,376 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 19:01:04,377 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 19:01:26,411 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 19:01:26,413 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 19:01:26,413 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 19:01:26,702 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 19:01:27,344 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 19:01:27,813 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 19:01:27,815 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 19:01:27,815 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 19:01:27,870 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 19:01:27,870 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 19:01:27,872 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 19:01:27,881 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 19:01:27,885 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 19:01:27,885 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 19:01:27,891 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 24644562
+2025-11-15 19:01:27,891 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 24644562
+2025-11-15 19:01:28,046 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 19:01:28,047 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 19:01:28.046977
+2025-11-15 19:01:28,248 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 24644562
+2025-11-15 19:01:28,249 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 19:01:28,263 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 19:01:28,278 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 19:01:29,304 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 19:01:29,305 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 19:01:30,544 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 19:01:30,544 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 19:01:51,360 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.4
+2025-11-15 19:01:51,361 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.3
+2025-11-15 19:01:51,362 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-11-15 19:01:51,633 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-11-15 19:01:52,319 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-11-15 19:01:52,765 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-11-15 19:01:52,767 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-11-15 19:01:52,767 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\admin\.config\yasb
+2025-11-15 19:01:52,824 [INFO] [MainThread] [root/update_service.py:321]: Background update checker started
+2025-11-15 19:01:52,825 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-11-15 19:01:52,829 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-11-15 19:01:52,842 [DEBUG] [MainThread] [systray_widget/systray.py:549]: Loading state from C:\Users\admin\AppData\Local\YASB\systray_state_AOC24G2W1G31GBPBHA000166.json
+2025-11-15 19:01:52,845 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-11-15 19:01:52,845 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-11-15 19:01:52,853 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 2885134
+2025-11-15 19:01:52,853 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 2885134
+2025-11-15 19:01:52,897 [DEBUG] [MainThread] [systray_widget/systray.py:298]: Systray thread started
+2025-11-15 19:01:52,924 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2025-11-15 19:01:52.924715
+2025-11-15 19:01:53,099 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 2885134
+2025-11-15 19:01:53,100 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-11-15 19:01:53,112 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49269
+2025-11-15 19:01:53,124 [ERROR] [TrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2025-11-15 19:01:54,154 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 19:01:54,155 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state
+2025-11-15 19:01:55,538 [DEBUG] [MainThread] [systray_widget/systray.py:487]: Re-sorting widgets
+2025-11-15 19:01:55,538 [DEBUG] [MainThread] [systray_widget/systray.py:509]: Updating current state

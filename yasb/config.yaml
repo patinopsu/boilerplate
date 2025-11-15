@@ -39,6 +39,7 @@ bars:
       - "weather"
       - "clock"
       right:
+      - "systray"
       - "wifi"
       - "volume"
       - "glazewm_tiling_direction"
@@ -85,7 +86,7 @@ widgets:
       update_interval: 600
       hide_decimal: true
       units: "metric"
-      location: "Samut Prakan, TH" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
+      location: "Samut Prakan, TH"
       callbacks:
         on_left: "toggle_card"
         on_middle: "do_nothing"
@@ -114,14 +115,14 @@ widgets:
         alignment: "right"
         direction: "down"
         icon_size: 64
-        show_hourly_forecast: true # Set to False to disable hourly forecast
-        time_format: "12h" # can be 12h or 24h
+        show_hourly_forecast: true
+        time_format: "12h"
         hourly_point_spacing: 76
-        hourly_icon_size: 32 # better to set 16, 32 or 64 for better quality
-        icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
-        temp_line_width: 2 # can be 0 to hide the temperature line
+        hourly_icon_size: 32
+        icon_smoothing: true
+        temp_line_width: 2
         current_line_color: "#8EAEE8"
-        current_line_width: 1 # can be 0 to hide the current hour line
+        current_line_width: 1
         current_line_style: "dot"
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
@@ -244,19 +245,14 @@ widgets:
       ethernet_label: "{wifi_icon}  ETH"
       ethernet_label_alt: "{wifi_icon} {ip_addr}"
       ethernet_icon: "\ueba9"
-      get_exact_wifi_strength: true  # Optional. Will require location access permission if true.
+      get_exact_wifi_strength: true
       wifi_icons: [
-        "\udb82\udd2e",  # Icon for 0% strength
-        "\udb82\udd1f",  # Icon for 1-24% strength
-        "\udb82\udd22",  # Icon for 25-49% strength
-        "\udb82\udd25",  # Icon for 50-74% strength
-        "\udb82\udd28"   # Icon for 75-100% strength
+        "\udb82\udd2e",
+        "\udb82\udd1f",
+        "\udb82\udd22",
+        "\udb82\udd25",
+        "\udb82\udd28"
       ]
-      label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
       menu_config:
         blur: true
         round_corners: true
@@ -278,3 +274,17 @@ widgets:
           "\uec3e",
           "\uec3f",
         ]
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "\uf0d9"
+      label_expanded: "\uf0da"
+      label_position: "left"
+      icon_size: 14
+      pin_click_modifier: "alt"
+      show_unpinned: false
+      show_unpinned_button: true
+      show_battery: false
+      show_volume: false
+      show_network: false

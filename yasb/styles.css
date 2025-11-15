@@ -27,7 +27,7 @@
     --battery-full:     #00FF88;  /* 🔋 90–100%: clean green-cyan hybrid */
     --battery-charging: #A78BFA;  /* ⚡ while charging: violet energy */
 
-    /*Fontidk will it work*/
+    /*Font thingy*/
     --font1: "JetBrainsMono Nerd Font Mono", monospace;
     --font2: Segoe UI Variable;
     --extralight: 200;
@@ -43,18 +43,15 @@
     border-radius: 8px;
     border: 1px solid var(--bg-primary);
 }
-
 .clock-widget {
     padding: 0 4px 0 0px;
 }
-
 .clock-popup.alarm,
 .clock-popup.timer,
 .clock-popup.calendar {
     min-width: 460px;
     background-color: rgba(17, 17, 27, 0.4);
 }
-
 .clock-popup.calendar .calendar-table,
 .clock-popup.calendar .calendar-table::item {
     background-color: rgba(17, 17, 27, 0);
@@ -123,7 +120,6 @@
 .clock-popup.calendar .extended-container .upcoming-events-item:hover {
     color: #ced1d8;
 }
-
 .clock-popup.timer .clock-popup-container,
 .clock-popup.alarm .clock-popup-container {
     padding: 16px;
@@ -151,7 +147,6 @@
 .clock-popup .clock-input-time.colon {
     padding-bottom: 8px;
 }
-
 .clock-popup .button {
     border-radius: 4px;
     font-family: var(--font2);
@@ -168,13 +163,11 @@
 .clock-popup .button.cancel {
     min-width: 120px;
 }
-
 .clock-popup .button.save,
 .clock-popup .button.start {
     background-color: rgba(0, 110, 255, 0.5);
     margin-right: 8px;
 }
-
 .clock-popup .button.save:hover,
 .clock-popup .button.start:hover {
     background-color: rgba(0, 110, 255, 0.7);
@@ -228,11 +221,9 @@
     outline: none;
     min-width: 300px;
 }
-
 .clock-popup .alarm-input-title:focus {
     border: 1px solid #0078D4;
 }
-
 .active-alarm-window {
     background-color: rgba(255, 255, 255, 0.048);
     max-width: 500px;
@@ -272,26 +263,22 @@
 .active-alarm-window .button:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
-
 .glazewm-workspaces {
     padding-left: 10px;
     margin: 0;
 }
-
 .glazewm-workspaces .ws-btn {
     font-size: 14px;
     background-color: transparent;
     border: none;
     padding: 0px 2px 0px 2px;
 }
-
 .glazewm-workspaces .ws-btn.active_populated {
     background-color: var(--accent-blue);
 }
 .glazewm-workspaces .ws-btn.active_empty {
     background-color: var(--accent-blue);
 }
-
 .glazewm-workspaces .ws-btn:hover,
 .glazewm-workspaces .ws-btn.populated:hover,
 .glazewm-workspaces .ws-btn.empty:hover {
@@ -302,7 +289,6 @@
     padding: 0;
     margin: 0;
 }
-
 .glazewm-tiling-direction .btn {
     font-size: 18px;
     width: 14px;
@@ -310,7 +296,6 @@
     color: #CDD6F4;
     border: none;
 }
-
 .active-window-widget {
     padding-left: 10px;
 }
@@ -323,7 +308,6 @@
 .active-window-widget .widget-container .label {
     font-size: 12px;
 }
-
 .notification-widget {
     padding-right: 10px;
 }
@@ -341,11 +325,9 @@
 .notification-widget .label.new-notification {
     color: var(--warning);
 }
-
 .battery-widget {
-    padding-right: 4px;
+    padding-right: 7px;
 }
-
 .battery-widget .widget-container .label.status-charging {
     color: var(--battery-charging);
 }
@@ -382,11 +364,9 @@
 .battery-widget .widget-container .icon.status-critical {
     color: var(--battery-critical);
 }
-
 .language-widget {
     padding-right: 8px;
 }
-
 .language-menu {
     background-color: rgba(17, 17, 27, 0.4);
     min-width: 300px;
@@ -485,7 +465,6 @@
 }
 .audio-menu .audio-container .device.selected {
     background-color: rgba(255, 255, 255, 0.085);
-   
 }
 .audio-menu .audio-container .device:hover {
     background-color: rgba(255, 255, 255, 0.06);
@@ -505,9 +484,7 @@
 }
 .audio-menu .toggle-apps:hover {
     background-color: rgba(255, 255, 255, 0.15);
-    
 }
-
 .audio-menu .apps-container {
     padding: 8px;
     margin-top:20px;
@@ -529,7 +506,6 @@
 .audio-menu .apps-container .app-volume .app-icon-container:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
 .wifi-menu {
     font-family: var(--font1);
     background-color: rgba(17, 17, 27, 0.4);
@@ -537,15 +513,12 @@
     min-height: 375px;
     min-width: 375px;
 }
-
 .wifi-menu .progress-bar {
     max-height: 2px;
 }
-
 .wifi-menu .progress-bar::chunk {
     background-color: #4cc2ff;
 }
-
 .wifi-menu .header {
     font-family: var(--font1);
     font-size: 14px;
@@ -556,7 +529,6 @@
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .wifi-menu .error-message {
     font-family: var(--font1);
     font-size: 14px;
@@ -567,62 +539,51 @@
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .wifi-menu .wifi-list {
     background-color: rgba(17, 17, 27, 0.8);
     margin-right: 3px;
 }
-
 .wifi-menu .wifi-item {
     min-height: 35px;
     padding: 2px 12px;
     margin: 2px 4px;
 }
-
 .wifi-menu .wifi-item:hover {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 6px;
 }
-
 .wifi-menu .wifi-item[active=true] {
     background-color: rgba(255, 255, 255, 0.15);
     font-size: 14px;
     border-radius: 6px;
     min-height: 80px;
 }
-
 .wifi-menu .wifi-item .icon {
     font-family: 'Segoe Fluent Icons';
     font-size: 26px;
     margin-right: 10px;
 }
-
 .wifi-menu .wifi-item .name {
     font-family: var(--font1);
     font-size: 14px;
     margin-right: 10px;
 }
-
 .wifi-menu .wifi-item .password {
     font-family: var(--font1);
     background-color: transparent;
     font-size: 14px;
 }
-
 .wifi-menu .wifi-item .status {
     font-family: var(--font1);
     font-size: 14px;
 }
-
 .wifi-menu .wifi-item .strength {
     font-family: var(--font1);
     font-size: 14px;
 }
-
 .wifi-menu .wifi-item .controls-container {
     padding-top: 8px;
 }
-
 .wifi-menu .wifi-item .connect {
     background-color: rgba(255, 255, 255, 0.15);
     padding: 4px 30px;
@@ -630,15 +591,12 @@
     border: none;
     font-size: 14px;
 }
-
 .wifi-menu .wifi-item .connect:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-
 .wifi-menu .wifi-item .connect:pressed {
     background-color: rgba(255, 255, 255, 0.3);
 }
-
 .wifi-menu .footer {
     font-size: 12px;
     font-weight: 600;
@@ -648,7 +606,6 @@
     background-color: rgba(17, 17, 27, 0.6);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .wifi-menu .footer .settings-button {
     font-family: var(--font1);
     background-color: transparent;
@@ -658,7 +615,6 @@
     min-height: 26px;
     color: #fff;
 }
-
 .wifi-menu .footer .refresh-icon {
     font-family: 'Segoe Fluent Icons';
     background-color: transparent;
@@ -667,20 +623,16 @@
     min-height: 26px;
     color: #fff;
 }
-
 .wifi-menu .footer .refresh-icon:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
 }
-
 .weather-widget {
     padding-right: 10px;
 }
 .weather-widget .icon {
     padding-right: 4px;
 }
-
-/* Weather card style */
 .weather-card {
     background-color: rgba(17, 17, 27, 0.5);
 }
@@ -710,29 +662,38 @@
     border-radius: 8px;
     background-color:  rgba(17, 17, 27, 0.2);
 }
-
 .weather-card-day.active {
     background-color: rgba(40, 40, 60, 0.6);
     border: 1px solid rgba(50, 50, 75, 1);
 }
-
 .weather-card-day:hover {
     background-color: rgba(40, 40, 60, 0.6);
 }
-
 .weather-card-day .label {
     font-size: 12px;
 }
-
 .weather-card .hourly-container {
     border: 1px solid #282936;
     background-color: #3c5fa0;
     border-radius: 8px;
     min-height: 150px;
 }
-
 .weather-card .hourly-data {
     background-color: #FAE93F;
     font-size: 12px;
     font-weight: bold;
+}
+.systray {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding-right: 6px;
+}
+.systray .button {
+    border-radius: 4px;
+}
+.systray .unpinned-visibility-btn {
+    border-radius: 4px;
+    height: 20px;
+    width: 16px;
 }
