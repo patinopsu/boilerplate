@@ -1,0 +1,20 @@
+scheme: "Kataware Night"
+author: "Gemini"
+description: "A blend of Kimi no Na Wa twilight and Insomniacs After School stargazing vibes."
+palette:
+  base00: "111322" # Default Background - Deep Observatory Night
+  base01: "1b1e34" # Lighter Background - Midnight Atmosphere
+  base02: "272b49" # Selection Background - Evening Haze
+  base03: "484f73" # Comments / Muted - Starlight Shadow
+  base04: "8f98c2" # Dark Foreground - Soft Slate
+  base05: "d3d8f0" # Default Foreground - Starlight Off-White
+  base06: "e8ebf7" # Light Foreground - Bright Sky White
+  base07: "f5f6fc" # Light Background - Pure Starlight
+  base08: "ff6b81" # Red / Comet Core - Tiamat Rose Red
+  base09: "ff9e64" # Orange / Sunset - Katawaredoki Amber
+  base0A: "f7c844" # Yellow / Celestial - Starlight Gold
+  base0B: "73da9c" # Green / Aurora - Observatory Horizon Green
+  base0C: "56d4e2" # Cyan / Comet Tail - Cyan Star Blue
+  base0D: "7aa2f7" # Blue / Zenith - Deep Telescope Blue
+  base0E: "b28cf8" # Purple / Twilight - Dusk Lavender
+  base0F: "f088c6" # Pink / Nebula - Twilight Rose

@@ -1,0 +1,43 @@
+{ den, ... }: {
+  den.aspects.proton-pass-cli = { user, ... }: {
+    homeManager = { pkgs, user, ... }: {
+      home.packages = with pkgs; [
+        proton-pass-cli
+      ];
+
+      home.sessionVariables = {
+        SSH_AUTH_SOCK = "/home/${user.name}/.ssh/proton-pass-agent.sock";
+      };
+
+      programs.git = {
+        signing = {
+          key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILO0F9jC5uBccmMoBN71OR0zNjl8sKCYjZAEN/qKsSkN";
+          signByDefault = true;
+        };
+
+        extraConfig = {
+          gpg.format = "ssh";
+          gpg.ssh.allowedSignersFile = "~/.config/git/allowed_signers";
+        };
+      };
+
+    systemd.user.services.proton-pass-agent = {
+        Unit = {
+          Description = "Proton Pass Agent Service";
+          After = [ "network.target" ];
+        };
+
+        Service = {
+          Type = "simple";
+          ExecStart = "${pkgs.proton-pass-cli}/bin/pass-cli ssh-agent daemon start'";
+          Restart = "on-failure";
+          RestartSec = "5s";
+        };
+
+        Install = {
+          WantedBy = [ "default.target" ]; # Ensures it starts automatically on login
+        };
+      };
+    };
+  };
+}
