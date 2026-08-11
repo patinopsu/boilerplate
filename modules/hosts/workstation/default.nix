@@ -103,18 +103,6 @@
             extraArgs = ["-f -L NixOS"];
 
             subvolumes = {
-              #"/@home" = {
-              #  mountOptions = [
-              #    "subvol=@home"
-              #    "compress=zstd:1"
-              #    "ssd"
-              #    "noatime"
-              #    "discard=async"
-              #    "space_cache=v2"
-              #  ];
-              #  mountpoint = "/home";
-              #};
-
               "/@persistent" = {
                 mountOptions = [
                   "subvol=@persistent"
