@@ -25,17 +25,22 @@
         Unit = {
           Description = "Proton Pass Agent Service";
           After = [ "network.target" ];
+          StartLimitIntervalSec = "10s";
+          StartLimitBurst = 5;
         };
 
         Service = {
           Type = "simple";
-          ExecStart = "${pkgs.proton-pass-cli}/bin/pass-cli ssh-agent daemon start'";
+          Environment = [
+            "PROTON_PASS_LINUX_KEYRING=dbus"
+          ];    
+          ExecStart = "${pkgs.proton-pass-cli}/bin/pass-cli ssh-agent start --socket-path /home/${user.name}/.ssh/proton-pass-agent.sock --refresh-interval 20";
           Restart = "on-failure";
           RestartSec = "5s";
         };
 
         Install = {
-          WantedBy = [ "default.target" ]; # Ensures it starts automatically on login
+          WantedBy = [ "default.target" ];
         };
       };
     };
