@@ -34,6 +34,11 @@
         home-manager.follows = "home-manager";
       };
     };
+    niri.url = "github:epireyn/niri-flake";
+    noctalia = {
+      url = "github:noctalia-dev/noctalia";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } (inputs.import-tree ./modules);
