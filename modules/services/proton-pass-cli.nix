@@ -13,6 +13,7 @@
       ];
 
       home.sessionVariables = {
+        PROTON_PASS_LINUX_KEYRING = "dbus";
         SSH_AUTH_SOCK = "/home/${user.name}/.ssh/proton-pass-agent.sock";
       };
 
