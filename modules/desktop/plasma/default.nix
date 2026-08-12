@@ -10,6 +10,7 @@
     nixos = { lib, pkgs, host, user, ... }: {
       preservation.preserveAt."/persistent" = {
         directories = [
+          "/var/lib/AccountsService"
           {
             directory = "/var/lib/plasmalogin"; 
             user = "plasmalogin";
