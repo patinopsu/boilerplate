@@ -1,5 +1,5 @@
 { den, ... }: {
-  den.aspects.docker = { user, ... }: {
+  den.aspects.tailscale = { user, ... }: {
     nixos = {
       preservation.preserveAt."/persistent".directories = [
         "/var/lib/tailscale"
