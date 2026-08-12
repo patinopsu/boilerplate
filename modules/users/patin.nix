@@ -15,6 +15,7 @@
       };
 
       programs.zsh.enable = true;
+      users.mutableUsers = false;
       users.users.${user.name} = {
         isNormalUser = true;
         description = "Patin Muangjan";
