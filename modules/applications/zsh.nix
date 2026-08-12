@@ -4,6 +4,7 @@
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
           ".local/share/atuin"
+          ".local/share/zoxide"
         ];
       };
     };
