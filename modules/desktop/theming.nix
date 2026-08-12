@@ -59,10 +59,6 @@
         };
       };
 
-      environment.etc."wallpapers" = {
-        source = "${self.outPath}/assets/wallpapers";
-      };
-      
       programs.dconf.profiles.user.databases = [{
         settings = {
           "org/gnome/desktop/wm/preferences" = {
