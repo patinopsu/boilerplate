@@ -123,7 +123,7 @@
         size = "100%FREE";
         content = {
           type = "btrfs";
-          extraArgs = [ "-f" "-L" "Isaki Magari" ];
+          extraArgs = [ "-f" ];
           subvolumes = {
             "/@data" = {
               mountpoint = "/mnt/d";
