@@ -94,6 +94,8 @@
           # Other / Misc Stuff
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
           { file = ".config/mimeapps.list"; how = "symlink"; }
+          { file = ".local/share/user-places.xbel"; how = "symlink"; }
+          
         ];
       };
 
