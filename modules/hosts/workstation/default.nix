@@ -23,6 +23,7 @@
 
       # --- Services --- #
       den.aspects.docker
+      den.aspects.tailscale
 
       # --- User --- #
       den.aspects.patin
