@@ -4,6 +4,7 @@
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
           ".vscode"
+          ".vscode-shared"
           ".config/Code"
         ];
       };
