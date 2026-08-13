@@ -13,6 +13,8 @@
       den.aspects.niri
 
       # --- Hardware Driver --- #
+      den.aspects.audio
+      den.aspects.bluetooth
       den.aspects.intelgpu
 
       # --- Security --- #
