@@ -18,6 +18,7 @@
       # --- Security --- #
       den.aspects.hardening
       den.aspects.sudo
+      den.aspects.secureboot
 
       # --- Services --- #
       den.aspects.tailscale

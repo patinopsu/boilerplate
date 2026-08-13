@@ -1,0 +1,26 @@
+{ inputs, den, ... }: {
+  den.aspects.secureboot = {
+    nixos = { lib, pkgs, ... }: {
+      imports = [
+        inputs.lanzaboote.nixosModules.lanzaboote
+      ];
+
+      preservation.preserveAt."/persistent" = {
+        directories = [
+          "/var/lib/sbctl"
+          "/var/lib/auto-cryptenroll"
+        ];
+      };
+
+      boot.loader.systemd-boot.enable = lib.mkForce false;
+      boot.lanzaboote = {
+        enable = true;
+        pkiBundle = "/var/lib/sbctl";
+      };
+
+      environment.systemPackages = [
+        pkgs.sbctl
+      ];
+    };
+  };
+}
