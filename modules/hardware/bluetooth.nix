@@ -1,5 +1,5 @@
 {
-  den.aspects.intelgpu = {
+  den.aspects.bluetooth = {
     nixos = { lib, pkgs, ... }: {
       hardware.bluetooth.enable = true;
     };
