@@ -4,6 +4,7 @@
       preservation.preserveAt."/persistent"= {
         directories = [
           "/var/lib/NetworkManager"
+          "/etc/NetworkManager/system-connections/"
         ];
       };
 
