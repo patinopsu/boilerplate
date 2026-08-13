@@ -90,6 +90,7 @@
         grim
         slurp
         libnotify
+        mpvpaper
         jq
       ];
     };
@@ -166,48 +167,48 @@
             };
             "Mod+L" = {
               hotkey-overlay.title = "Lock the System";
-              action.spawn = [ "noctalia-shell" "ipc" "call" "lockScreen" "lock" ];
+              action.spawn = [ "noctalia" "msg" "session" "lock"  ];
             };
 
             "XF86AudioPlay" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "media" "play" ];
+              action.spawn = [ "noctalia" "msg" "media" "next" ];
             };
             "XF86AudioStop" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "media" "pause" ];
+              action.spawn = [ "noctalia" "msg" "media" "pause" ];
             };
             "XF86AudioPrev" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "media" "previous" ];
+              action.spawn = [ "noctalia" "msg" "media" "previous" ];
             };
             "XF86AudioNext" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "media" "next" ];
+              action.spawn = [ "noctalia" "msg" "media" "next" ];
             };
             "XF86MonBrightnessUp" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "brightness" "increase" ];
+              action.spawn = [ "noctalia" "msg" "brightness-up" ];
             };
             "XF86MonBrightnessDown" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "brightness" "decrease" ];
+              action.spawn = [ "noctalia" "msg" "brightness-down" ];
             };
             "XF86AudioRaiseVolume" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "volume" "increase" ];
+              action.spawn = [ "noctalia" "msg" "volume-up" ];
             };
             "XF86AudioLowerVolume" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "volume" "decrease" ];
+              action.spawn = [ "noctalia" "msg" "volume-down" ];
             };
             "XF86AudioMute" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "volume" "muteOutput" ];
+              action.spawn = [ "noctalia" "msg" "volume-mute" ];
             };
             "XF86AudioMicMute" = {
               allow-when-locked = true;
-              action.spawn = [ "noctalia-shell" "ipc" "call" "volume" "muteInput" ];
+              action.spawn = [ "noctalia" "msg" "mic-mute" ];
             };
 
             "Mod+A".action.focus-column-left = [];
