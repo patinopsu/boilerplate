@@ -15,7 +15,7 @@
 
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
-          ".local/share/keyring"
+          ".local/share/keyrings"
         ];
       };
 
