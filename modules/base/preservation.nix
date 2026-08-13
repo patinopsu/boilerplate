@@ -9,10 +9,12 @@
       preserveAt."/persistent" = {
         directories = [
           "/etc/nixos"
-            {
-              directory = "/var/lib/nixos";
-              inInitrd = true;
-            }
+          "/etc/nix"
+          "/var/lib/systemd"
+          {
+            directory = "/var/lib/nixos";
+            inInitrd = true;
+          }
         ];
         files = [
           {
