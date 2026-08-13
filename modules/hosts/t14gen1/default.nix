@@ -36,7 +36,7 @@
       den.aspects.mpv
     ];
 
-    nixos = { config, lib, pkgs, ... }: {
+    nixos = { config, lib, pkgs, user, ... }: {
       imports = [
         inputs.disko.nixosModules.disko
       ];
@@ -45,6 +45,11 @@
       boot.initrd.kernelModules = [ "dm-snapshot" ];
       boot.kernelModules = [ "kvm-intel" ];
       boot.extraModulePackages = [ ];
+
+      users.users.${user.name} = {
+        initialPassword = lib.mkForce null;
+        hashedPassword = lib.mkForce "$y$j9T$mehwnm0lpqvh.8WtIMkhw1$m4NYRPfsbuK.HGGk0Q7dwA9OGnbrHYWOZbFvE3mJxu2";
+      };
 
       hardware.enableAllFirmware = true;
       hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;

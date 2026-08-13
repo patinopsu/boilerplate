@@ -19,7 +19,7 @@
       users.users.${user.name} = {
         isNormalUser = true;
         description = "Patin Muangjan";
-        hashedPasswordFile = "/persistent/secure/hashedpw";
+	      initialPassword = "changeme";
         extraGroups = ["wheel"];
       };
     };
