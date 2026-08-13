@@ -10,6 +10,7 @@
     nixos = { lib, user, pkgs, ... }: {
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
+          ".ssh"
           ".local/state"
         ];
       };
