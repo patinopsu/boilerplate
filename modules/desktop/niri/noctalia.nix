@@ -1,24 +1,21 @@
 { inputs, self, ... }: {
   den.aspects.noctalia-shell = {
-    homeManager = { lib, ... }: let
-      inherit (lib) mapAttrs;
-
-      mkDefaultsRecursive = v:
-        if builtins.isAttrs v then
-          mapAttrs (_: mkDefaultsRecursive) v
-        else
-          lib.mkDefault v;
-
-      settingsFromJson =
-        mkDefaultsRecursive
-          (builtins.fromJSON (builtins.readFile ./noctalia.json));
-    in {
+    nixos = { user, ... }: {
+      preservation.preserveAt."/persistent".users.${user.name} = {
+        directories = [
+          ".config/noctalia/"
+        ];
+      };
+    };
+    homeManager = { lib, ... }: {
       imports = [
         inputs.noctalia.homeModules.default
       ];
       programs.noctalia = {
         enable = true;
-        settings = settingsFromJson;
+        settings = lib.mapAttrsRecursive (name: value: lib.mkDefault value) (
+          builtins.fromTOML (builtins.readFile ./noctalia.toml)
+        );
       };
     };
   };
