@@ -19,14 +19,9 @@
         ];
       };
 
-      stylix.targets.qt.platform = lib.mkForce "kde";
-
       services = {
         udisks2.enable = true;
         gvfs.enable = true;
-        blueman = lib.mkIf (config.hardware ? bluetooth) {
-          enable = true;
-        };
 
         gnome = lib.mkForce {
           gnome-keyring.enable = true;
@@ -63,24 +58,7 @@
         };
       };
 
-      systemd = {
-        services.display-manager.environment.XDG_CURRENT_DESKTOP = "X-NIXOS-SYSTEMD-AWARE";
-
-        # Disable for now
-        #user.services.polkit-gnome-authentication-agent-1 = {
-        #  description = "GMOME Authentication Agent";
-        #  wantedBy = [ "graphical-session.target" ];
-        #  wants = [ "graphical-session.target" ];
-        #  after = [ "graphical-session.target" ];
-        #  serviceConfig = {
-        #    Type = "simple";
-        #    ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
-        #    Restart = "on-failure";
-        #    RestartSec = 1;
-        #    TimeoutStopSec = 10;
-        #  };
-        #};
-      };
+      systemd.services.display-manager.environment.XDG_CURRENT_DESKTOP = "X-NIXOS-SYSTEMD-AWARE";
 
       environment.systemPackages = with pkgs; [
         thunar
