@@ -8,10 +8,16 @@
       den.aspects.noctalia-shell
     ];
 
-    nixos = { config, lib, pkgs, ... }: {
+    nixos = { config, lib, pkgs, user, ... }: {
       nixpkgs.overlays = [
         inputs.niri.overlays.niri
       ];
+
+      preservation.preserveAt."/persistent".users.${user.name} = {
+        directories = [
+          ".local/share/keyring"
+        ];
+      };
 
       stylix.targets.qt.platform = lib.mkForce "kde";
 
@@ -77,8 +83,7 @@
       };
 
       environment.systemPackages = with pkgs; [
-        nirius
-        nautilus
+        thunar
         loupe
         xwayland-satellite
         wl-clipboard
@@ -100,7 +105,7 @@
           spawn-at-startup = [
             {
               command = [
-                "noctalia-shell"
+                "noctalia"
               ];
             }
           ];
