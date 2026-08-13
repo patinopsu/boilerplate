@@ -131,15 +131,18 @@
             focus-ring = {
               enable = false;
             };
+
             border = {
               enable = true;
               width = 2;
             };
           };
+
           prefer-no-csd = true;
           overview = {
             workspace-shadow.enable = true;
           };
+
           binds = {
             "Mod+Tab" = {
               repeat = false;
