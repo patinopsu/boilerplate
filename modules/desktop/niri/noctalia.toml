@@ -225,6 +225,8 @@ backlightDeviceMappings = []
 brightnessStep = 2
 enableDdcSupport = true
 enforceMinimum = true
+minimum_brightness = 0.0099999997764825821
+sync_all_monitors = true
 
 [[calendar.cards]]
 enabled = true
@@ -616,7 +618,7 @@ video_directory = "/mnt/d/Videos/Wallpapers"
 
 [plugins]
 autoUpdate = false
-enabled = [ "noctalia/mpvpaper" ]
+enabled = []
 notifyUpdates = true
 
 [sessionMenu]
