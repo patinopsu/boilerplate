@@ -191,5 +191,25 @@
         '';
       };
     };
+    homeManager = {
+      programs.niri.settings = {
+      input = {
+        mouse = {
+          accel-speed = -0.30;
+        };
+      };
+
+      outputs = {
+        "eDP-1" = {
+          enable = true;
+          scale = 1;
+          mode = {
+            width = 1920;
+            height = 1080;
+          };
+        };
+      };
+    };
+  };
   };
 }
