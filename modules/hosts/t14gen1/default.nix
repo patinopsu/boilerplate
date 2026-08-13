@@ -62,6 +62,12 @@
 
       time.timeZone = "Asia/Bangkok";
       networking.hostName = "cygnus";
+      
+      swapDevices = [
+        {
+          device = "/swap/swapfile";
+        }
+      ];
 
       disko.devices.disk.main.device = "/dev/nvme0n1";
       disko.devices.disk.main.type = "disk";
