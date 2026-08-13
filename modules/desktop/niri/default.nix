@@ -311,6 +311,11 @@
 
           window-rules = [
             {
+              "background-effect" = {
+                blur = true;
+              };
+            }
+            {
               "geometry-corner-radius" = {
                 "top-left" = 10.0;
                 "top-right" = 10.0;
