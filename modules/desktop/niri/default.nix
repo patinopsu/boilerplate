@@ -297,10 +297,12 @@
               allow-when-locked = false;
               action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "region" ];
             };
+
             "Mod+Print" = {
               allow-when-locked = false;
               action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "full" ];
             };
+
             "Alt+Print" = {
               allow-when-locked = false;
               action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "window" ];
@@ -331,10 +333,20 @@
             {
               matches = [
                 {
-                  namespace = "^noctalia-overview*";
+                  namespace = "^noctalia-backdrop";
                 }
               ];
               "place-within-backdrop" = true;
+            }
+            {
+              matches = [
+                {
+                  namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd)$";
+                }
+              ];
+              "background-effect" = {
+                xray = false;
+              };
             }
           ];
         };
