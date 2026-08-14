@@ -85,13 +85,13 @@
         enable = true;
         package = pkgs.niri-unstable;
         settings = {
-          spawn-at-startup = [
-            {
-              command = [
-                "noctalia"
-              ];
-            }
-          ];
+          #spawn-at-startup = [
+          #  {
+          #    command = [
+          #      "noctalia"
+          #    ];
+          #  }
+          #];
           input = {
             mouse = {
               accel-profile = "flat";
