@@ -104,9 +104,7 @@
       services.desktopManager.plasma6.enable = true;
       environment.systemPackages = with pkgs; [
         klassy
-        kdePackages.qtwebengine
         inputs.kwin-effects-better-blur-dx.packages.${pkgs.stdenv.hostPlatform.system}.default
-        kdePackages.kde-gtk-config
       ];
     };
 
