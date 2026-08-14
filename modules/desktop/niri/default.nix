@@ -192,6 +192,16 @@
               action.spawn = [ "noctalia" "msg" "mic-mute" ];
             };
 
+            "Mod+K" = {
+              hotkey-overlay.title = "Open Wallpaper Selector";
+              action.spawn = [ "noctalia" "msg" "panel-toggle" "wallpaper" ];
+            };
+
+            "Ctrl+Alt+Delete" = {
+              hotkey-overlay.title = "Open Session Menu";
+              action.spawn = [ "noctalia" "msg" "panel-toggle" "session" ];
+            };
+
             "Mod+A".action.focus-column-left = [];
             "Mod+D".action.focus-column-right = [];
             "Mod+Shift+A".action.move-column-left = [];
