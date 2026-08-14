@@ -17,6 +17,10 @@
         directories = [
           ".local/share/keyrings"
         ];
+        
+        files = [
+          { file = ".config/user-dirs.dirs"; how = "symlink"; }
+        ];
       };
 
       services = {
