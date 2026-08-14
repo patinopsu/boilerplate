@@ -203,25 +203,28 @@
         '';
       };
     };
-    homeManager = {
+    homeManager =  { lib, ... }: {
       programs.niri.settings = {
-      input = {
-        mouse = {
-          accel-speed = -0.30;
+        input = {
+          mouse = {
+            accel-speed = -0.30;
+          };
         };
-      };
-
-      outputs = {
-        "eDP-1" = {
-          enable = true;
-          scale = 1;
-          mode = {
-            width = 1920;
-            height = 1080;
+        outputs = {
+          "eDP-1" = {
+            enable = true;
+            scale = 1;
+            mode = {
+              width = 1920;
+              height = 1080;
+            };
           };
         };
       };
+
+      programs.noctalia.settings = {
+        wallpaper.path = lib.mkForce "/mnt/d/Pictures/Wallpapers";
+      };
     };
-  };
   };
 }
