@@ -61,7 +61,7 @@
       systemd.services.display-manager.environment.XDG_CURRENT_DESKTOP = "X-NIXOS-SYSTEMD-AWARE";
 
       environment.systemPackages = with pkgs; [
-        thunar
+        yazi
         loupe
         xwayland-satellite
         wl-clipboard
@@ -140,7 +140,7 @@
             };
             "Mod+E" = {
               hotkey-overlay.title = "Open File Manager";
-              action.spawn = [ "nautilus" ];
+              action.spawn = [ "${pkgs.kitty}/bin/kitty" "yazi" ];
             };
             "Mod+V" = {
               hotkey-overlay.title = "Clipboard History";
