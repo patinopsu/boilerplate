@@ -11,7 +11,7 @@
       den.aspects.preservation
       den.aspects.network
       den.aspects.nix
-      den.aspects.desktop-plasma
+      den.aspects.kineticwe
 
       # --- Hardware Driver --- #
       den.aspects.intelgpu
@@ -39,7 +39,7 @@
       den.aspects.mpv
     ];
 
-    nixos = { config, lib, pkgs, ... }: {
+    nixos = { config, lib, pkgs, user, ... }: {
       imports = [
         inputs.disko.nixosModules.disko
       ];
