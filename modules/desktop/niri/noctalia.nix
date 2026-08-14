@@ -13,6 +13,7 @@
       ];
       programs.noctalia = {
         enable = true;
+        systemd.enable = true;
         settings = lib.mapAttrsRecursive (name: value: lib.mkDefault value) (
           builtins.fromTOML (builtins.readFile ./noctalia.toml)
         );
