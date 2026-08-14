@@ -52,6 +52,10 @@
       time.timeZone = "Asia/Bangkok";
       networking.hostName = "orion"; 
 
+      users.users.${user.name} = {
+        initialPassword = lib.mkForce null;
+        hashedPassword = lib.mkForce "$y$j9T$BWfm4DsBsMI5Z8SM8iXva/$6Xui8IISyL6xziExyxlCGnaAtE7oseJmYQILoq0Fby6";
+      };
       hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 
       fileSystems."/mnt/d" = {
