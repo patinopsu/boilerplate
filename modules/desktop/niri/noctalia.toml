@@ -39,6 +39,7 @@ volumeOverdrive = false
 volumeStep = 2
 
 [backdrop]
+blur_intensity = 0.19999999552965164
 enabled = true
 
 [bar]
@@ -614,7 +615,8 @@ overlayLayer = true
 
 [plugin_settings."noctalia/mpvpaper"]
 cpu_quota = 180
-video_directory = "/mnt/d/Videos/Wallpapers"
+extract_last_frame = false
+video_directory = ""
 
 [plugins]
 autoUpdate = false
@@ -691,7 +693,7 @@ clipboard_enabled = false
 clipboard_keep_from_closed_apps = false
 external_ip_enabled = true
 font_family = "Inter Display"
-niri_overview_type_to_launch_enabled = false
+niri_overview_type_to_launch_enabled = true
 polkit_agent = true
 screen_time_enabled = true
 settings_show_advanced = true
@@ -767,13 +769,13 @@ translucentWidgets = true
 
 [wallpaper]
 automationEnabled = false
-directory = "/etc/wallpapers"
+directory = "/mnt/d/Pictures/Wallpapers"
 enableMultiMonitorDirectories = false
 enabled = true
 favorites = []
 fillColor = "#000000"
 fillMode = "crop"
-fill_mode = "center"
+fill_mode = "fit"
 hideWallpaperFilenames = false
 linkLightAndDarkWallpapers = true
 monitorDirectories = []
@@ -806,15 +808,6 @@ wallhavenResolutionMode = "atleast"
 wallhavenResolutionWidth = ""
 wallhavenSorting = "relevance"
 wallpaperChangeMode = "random"
-
-    [wallpaper.default]
-    path = "/nix/store/glnvgfcljvqxdyjq0qawimhdqv61qx7z-noctalia-5.0.0/share/noctalia/assets/noctalia-wallpaper.png"
-
-    [wallpaper.last]
-    path = "/home/patin/.cache/noctalia/mpvpaper/_mnt_d_Videos_Wallpapers_Your_Name_2_mp4.jpg"
-
-    [wallpaper.monitors.eDP-1]
-    path = "/home/patin/.cache/noctalia/mpvpaper/_mnt_d_Videos_Wallpapers_Your_Name_2_mp4.jpg"
 
 [widget.date]
 format = "{:%d %b}"
