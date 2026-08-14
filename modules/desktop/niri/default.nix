@@ -325,6 +325,13 @@
               ];
               "open-floating" = true;
             }
+            {
+              matches = [
+                { "app-id" = "r#^zen-twilight$#"; }
+              ];
+              "draw-border-with-background" = false;
+              "opacity" = 0.98;
+            }
           ];
           layer-rules = [
             {
