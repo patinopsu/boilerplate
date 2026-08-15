@@ -28,7 +28,6 @@
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
           ".config/klassy"
-
           ".local/share/dolphin"
           ".local/share/kwalletd"
         ];
