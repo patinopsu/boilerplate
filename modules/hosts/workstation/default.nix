@@ -37,6 +37,7 @@
       den.aspects.vscode
       den.aspects.proton-pass-cli
       den.aspects.mpv
+      den.aspects.vicinae
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
