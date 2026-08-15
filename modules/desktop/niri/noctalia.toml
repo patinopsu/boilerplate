@@ -84,12 +84,12 @@ widgetSpacing = 2
     capsule_thickness = 0.69999998807907104
     center = [ "date", "clock" ]
     contact_shadow = true
-    end = [ "group:g2", "group:g1", "battery", "privacy", "session" ]
+    end = [ "group:g2", "group:g1", "battery", "privacy", "notifications", "session" ]
     margin_edge = 8
     margin_ends = 8
     padding = 7
     panel_overlap = 0
-    start = [ "workspaces", "settings", "tray" ]
+    start = [ "workspaces", "keyboard_layout", "tray", "launcher" ]
     thickness = 34
     widget_spacing = 2
 
@@ -102,6 +102,7 @@ widgetSpacing = 2
         members = [ "input_volume", "volume" ]
         opacity = 1.0
         padding = 7.0
+        widget_spacing = 4
 
         [[bar.widgets.capsule_group]]
         accordion = false
@@ -112,6 +113,7 @@ widgetSpacing = 2
         members = [ "network", "bluetooth" ]
         opacity = 1.0
         padding = 6.0
+        widget_spacing = 4
 
         [[bar.widgets.left]]
         characterCount = 2
