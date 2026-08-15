@@ -43,12 +43,20 @@
     nixos = { config, lib, pkgs, user, ... }: {
       imports = [
         inputs.disko.nixosModules.disko
+        inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t14-intel-gen1
       ];
 
       boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" ];
 
+      services.tlp.enable = lib.mkForce false;
       services.tuned.enable = true;
       services.power-profiles-daemon.enable = false;
+
+      hardware.graphics.extraPackages = lib.mkForce (with pkgs; [
+        vpl-gpu-rt
+        intel-media-driver
+        intel-compute-runtime
+      ]);
 
       boot.initrd.availableKernelModules = [ "tpm_tis" "xhci_pci" "nvme" "usbhid" "usb_storage" "rtsx_pci_sdmmc" "sd_mod" ];
       boot.initrd.kernelModules = [ "dm-snapshot" ];
