@@ -89,7 +89,7 @@ widgetSpacing = 2
     margin_ends = 8
     padding = 7
     panel_overlap = 0
-    start = [ "workspaces", "keyboard_layout", "tray", "launcher" ]
+    start = [ "workspaces", "keyboard_layout", "tray" ]
     thickness = 34
     widget_spacing = 2
 
