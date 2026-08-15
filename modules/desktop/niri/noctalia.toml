@@ -82,16 +82,48 @@ widgetSpacing = 2
     background_opacity = 0.79999998211860657
     capsule = true
     capsule_thickness = 0.69999998807907104
-    center = [ "date", "clock" ]
+    center = [ "group:g3" ]
+    end = [ "tray", "group:g2", "group:g1", "battery", "privacy", "notifications", "session" ]
+    start = [ "workspaces", "keyboard_layout", "active_window" , "weather", "audio_visualizer" ]
     contact_shadow = true
-    end = [ "group:g2", "group:g1", "battery", "privacy", "notifications", "session" ]
     margin_edge = 8
     margin_ends = 8
     padding = 7
     panel_overlap = 0
-    start = [ "workspaces", "keyboard_layout", "tray" ]
     thickness = 34
     widget_spacing = 2
+
+        [[bar.widgets.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g1"
+        members = [ "input_volume", "volume" ]
+        opacity = 1.0
+        padding = 7.0
+        widget_spacing = 4
+
+        [[bar.widgets.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g2"
+        members = [ "network", "bluetooth" ]
+        opacity = 1.0
+        padding = 6.0
+        widget_spacing = 4
+
+        [[bar.widgets.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g3"
+        members = [ "date", "clock" ]
+        opacity = 1.0
+        padding = 6.0
 
         [[bar.widgets.capsule_group]]
         accordion = false
@@ -775,3 +807,13 @@ glyph = "noctalia"
 
 [widget.volume]
 show_label = false
+
+[widget.active_window]
+font_weight = 400
+max_length = 140
+show_empty_label = false
+min_length = 0
+title_scroll = "always"
+
+[widget.weather]
+show_condition = false
