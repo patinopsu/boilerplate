@@ -94,7 +94,7 @@
               repeat-delay = 500;
               xkb = {
                 layout = "us,th";
-                options = "grp:win_space_toggle,compose:ralt,ctrl:nocaps";
+                options = "caps:none,grp:alt_caps_toggle,grp:caps_toggle,grp:shift_caps_toggle";
               };
             };
           };
