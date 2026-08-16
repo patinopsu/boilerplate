@@ -73,6 +73,15 @@
 
       time.timeZone = "Asia/Bangkok";
       networking.hostName = "cygnus";
+
+      boot.lanzaboote.configurationLimit = 8;
+      boot.lanzaboote.measuredBoot = {
+        enable = true;
+        pcrs = [
+          0
+          7
+        ];
+      };
       
       swapDevices = [
         {
