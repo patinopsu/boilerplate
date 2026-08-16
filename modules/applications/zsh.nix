@@ -19,6 +19,7 @@
 
       programs.cava.enable = true;
       programs.btop.enable = true;
+      programs.fastfetch.enable = true;
       programs.zsh = {
         enable = true;
         enableCompletion = true;
