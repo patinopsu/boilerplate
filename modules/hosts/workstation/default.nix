@@ -114,7 +114,6 @@
             subvolumes = {
               "/@persistent" = {
                 mountOptions = [
-                  "subvol=@persistent"
                   "compress=zstd:1"
                   "ssd"
                   "noatime"
@@ -126,7 +125,6 @@
 
               "/@nix" = {
                 mountOptions = [
-                  "subvol=@nix"
                   "compress=zstd:1"
                   "ssd"
                   "noatime"
