@@ -16,10 +16,29 @@
 
       programs.nix-index-database.comma.enable = true;
       programs.yazi.enable = true;
-
       programs.cava.enable = true;
       programs.btop.enable = true;
       programs.fastfetch.enable = true;
+      programs.atuin.enable = true;
+      programs.lazygit.enable = true;
+
+      programs.zoxide = {
+        enable = true;
+        enableZshIntegration = true;
+      };
+
+      programs.eza = {
+        enable = true;
+        icons = "always";
+        colors = "always";
+        enableZshIntegration = true;
+      };
+
+      programs.fzf = {
+        enable = true;
+        historyWidget.command = "";
+        enableZshIntegration = true;
+      };
 
       programs.zsh = {
         enable = true;
@@ -37,7 +56,7 @@
 
         oh-my-zsh = {
           enable = true;
-          plugins = [ "git" "eza" "zoxide" "fzf" ];
+          plugins = [ "git" "fzf" ];
         };
 
         initContent = ''
@@ -51,15 +70,6 @@
           beaufetch = "fastfetch -c ${self.outPath}/assets/fastfetch.jsonc -l ${self.outPath}/assets/nix-snowflakes.png";
         };
       };
-
-      programs.atuin.enable = true;
-
-      home.packages = with pkgs; [
-        zoxide
-        eza
-        fzf
-        lazygit
-      ];
 
       home.file = {
         ".p10k.zsh" = {
