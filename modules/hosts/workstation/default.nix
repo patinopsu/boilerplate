@@ -139,5 +139,57 @@
         };
       };
     };
+
+    homeManager =  { lib, ... }: {
+      programs.niri.settings = {
+        outputs = {
+          "DP-2" = {
+            enable = true;
+            scale = 1;
+            variable-refresh-rate = true;
+            mode = {
+              width = 1920;
+              height = 1080;
+              refresh = 119.982;
+            };
+            position = {
+              x = 0;
+              y = 0;
+            };
+          };
+
+          "DP-3" = {
+            enable = true;
+            scale = 1;
+            mode = {
+              width = 1920;
+              height = 1080;
+              refresh = 119.982;
+            };
+            position = {
+              x = -1920;
+              y = 0;
+            };
+          };
+
+          "HDMI-A-3" = {
+            enable = true;
+            scale = 1;
+            mode = {
+              width = 640;
+              height = 480;
+            };
+            position = {
+              x = 10000;
+              y = 10000;
+            };
+          };
+        };
+      };
+
+      programs.noctalia.settings = {
+        wallpaper.path = lib.mkForce "/mnt/d/Pictures/";
+      };
+    };
   };
 }
