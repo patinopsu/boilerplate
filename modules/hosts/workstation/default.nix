@@ -11,7 +11,8 @@
       den.aspects.preservation
       den.aspects.network
       den.aspects.nix
-      den.aspects.kineticwe
+      den.aspects.niri
+      #den.aspects.kineticwe
 
       # --- Hardware Driver --- #
       den.aspects.intelgpu
