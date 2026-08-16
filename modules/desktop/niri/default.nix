@@ -65,7 +65,6 @@
       systemd.services.display-manager.environment.XDG_CURRENT_DESKTOP = "X-NIXOS-SYSTEMD-AWARE";
 
       environment.systemPackages = with pkgs; [
-        yazi
         loupe
         xwayland-satellite
         wl-clipboard

@@ -15,6 +15,7 @@
       ];
 
       programs.nix-index-database.comma.enable = true;
+      programs.yazi.enable = true;
 
       programs.zsh = {
         enable = true;
