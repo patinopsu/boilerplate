@@ -20,6 +20,7 @@
         
         files = [
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
+          { file = ".config/mimeapps.list"; how = "symlink"; }
         ];
       };
 
