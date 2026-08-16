@@ -68,11 +68,6 @@
         loupe
         xwayland-satellite
         wl-clipboard
-        grim
-        slurp
-        libnotify
-        mpvpaper
-        jq
       ];
     };
 
