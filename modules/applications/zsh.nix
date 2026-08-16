@@ -58,7 +58,6 @@
         zoxide
         eza
         fzf
-        fastfetch
         lazygit
       ];
 
