@@ -39,16 +39,13 @@ volumeOverdrive = false
 volumeStep = 2
 
 [backdrop]
-blur_intensity = 0.19999999552965164
 enabled = true
 
 [bar]
 autoHideDelay = 500
 autoShowDelay = 150
-backgroundOpacity = 0.80000000000000004
 barType = "floating"
 capsuleColorKey = "none"
-capsuleOpacity = 0.80000000000000004
 contentPadding = 5
 density = "default"
 displayMode = "always_visible"
@@ -79,9 +76,9 @@ useSeparateOpacity = false
 widgetSpacing = 2
 
     [bar.widgets]
-    background_opacity = 0.79999998211860657
+    background_opacity = 0.80
     capsule = true
-    capsule_thickness = 0.69999998807907104
+    capsule_thickness = 0.70
     center = [ "group:g3" ]
     end = [ "tray", "group:g2", "group:g1", "battery", "privacy", "notifications", "session" ]
     start = [ "workspaces", "keyboard_layout", "active_window" , "weather", "audio_visualizer" ]
@@ -596,11 +593,6 @@ location = "top_right"
 monitors = []
 overlayLayer = true
 
-[plugin_settings."noctalia/mpvpaper"]
-cpu_quota = 180
-extract_last_frame = false
-video_directory = ""
-
 [plugins]
 autoUpdate = false
 enabled = []
@@ -752,7 +744,6 @@ translucentWidgets = true
 
 [wallpaper]
 automationEnabled = false
-directory = "/mnt/d/Pictures/Wallpapers"
 enableMultiMonitorDirectories = false
 enabled = true
 favorites = []
