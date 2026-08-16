@@ -46,14 +46,6 @@
         autosuggestion.enable = true;
         syntaxHighlighting.enable = true;
 
-        plugins = [
-          {
-            name = "powerlevel10k";
-            src = pkgs.zsh-powerlevel10k;
-            file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-          }
-        ];
-
         oh-my-zsh = {
           enable = true;
           plugins = [ "git" "fzf" ];
@@ -62,18 +54,11 @@
         initContent = ''
           source ${pkgs.nix-index}/etc/profile.d/command-not-found.sh
           fastfetch -c ${self.outPath}/assets/fastfetch.jsonc -l ${self.outPath}/assets/nix-snowflakes.png
-          [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
         '';
 
         shellAliases = {
           cd = "z";
           beaufetch = "fastfetch -c ${self.outPath}/assets/fastfetch.jsonc -l ${self.outPath}/assets/nix-snowflakes.png";
-        };
-      };
-
-      home.file = {
-        ".p10k.zsh" = {
-          source = "${self.outPath}/assets/p10k.zsh";
         };
       };
     };
