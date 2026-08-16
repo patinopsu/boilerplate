@@ -17,6 +17,7 @@
       programs.nix-index-database.comma.enable = true;
       programs.yazi.enable = true;
 
+      programs.cava.enable = true;
       programs.zsh = {
         enable = true;
         enableCompletion = true;
