@@ -58,7 +58,6 @@
 
         initContent = ''
           source ${pkgs.nix-index}/etc/profile.d/command-not-found.sh
-          fastfetch -c ${self.outPath}/assets/fastfetch.jsonc -l ${self.outPath}/assets/nix-snowflakes.png
         '';
 
         shellAliases = {
