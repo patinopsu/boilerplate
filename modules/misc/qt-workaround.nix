@@ -4,7 +4,8 @@
       stylix.targets.qt.enable = false;
       qt = {
         enable = true;
-        style = "breeze";
+        platformTheme = "qt5ct";
+        style = "kvantum";
       };
   
     };
