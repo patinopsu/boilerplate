@@ -18,6 +18,7 @@
       programs.yazi.enable = true;
 
       programs.cava.enable = true;
+      programs.btop.enable = true;
       programs.zsh = {
         enable = true;
         enableCompletion = true;
