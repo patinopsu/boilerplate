@@ -8,6 +8,7 @@
         hinting.enable = true;
         hinting.style = "slight";
       };
+
       fonts.fontconfig.localConf = ''
         <?xml version="1.0"?>
         <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
@@ -15,6 +16,39 @@
           <dir prefix="absolute">/persistent/fonts</dir>
         </fontconfig>
       '';
+
+      fileSystems."/usr/share/fonts/nix" = {
+        device = "/run/current-system/sw/share/X11/fonts";
+        fsType = "fuse.bindfs";
+        options = [
+          "ro"
+          "x-gvfs-hide"
+          "nofail"
+          "resolve-symlinks"
+        ];
+      };
+      
+      fileSystems."/usr/share/fonts/windows" = {
+        device = "/persistent/fonts/Windows";
+        fsType = "fuse.bindfs";
+        options = [
+          "ro"
+          "x-gvfs-hide"
+          "nofail"
+          "resolve-symlinks"
+        ];
+      };
+
+      fileSystems."/usr/share/fonts/custom" = {
+        device = "/persistent/fonts/Custom";
+        fsType = "fuse.bindfs";
+        options = [
+          "ro"
+          "x-gvfs-hide"
+          "nofail"
+          "resolve-symlinks"
+        ];
+      };
     };
   };
 }
