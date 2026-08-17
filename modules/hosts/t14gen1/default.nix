@@ -89,6 +89,8 @@
           device = "/swap/swapfile";
         }
       ];
+      
+      services.throttled.enable = true;
 
       virtualisation.kvmgt.enable = true;
       virtualisation.kvmgt.vgpus = {
