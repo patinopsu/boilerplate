@@ -275,12 +275,12 @@
 
             "Print" = {
               allow-when-locked = false;
-              action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "region" ];
+              action.spawn = [ "noctalia" "msg" "screenshot-region" ];
             };
 
             "Mod+Print" = {
               allow-when-locked = false;
-              action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "full" ];
+              action.spawn = [ "noctalia" "msg" "screenshot-fullscreen" ];
             };
 
             "Alt+Print" = {
