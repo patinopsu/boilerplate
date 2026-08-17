@@ -11,6 +11,7 @@
       den.aspects.network
       den.aspects.nix
       den.aspects.niri
+      den.aspects.virtualization
 
       # --- Hardware Driver --- #
       den.aspects.audio
@@ -46,7 +47,7 @@
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t14-intel-gen1
       ];
 
-      boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" ];
+      boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" "i915.enable_gvt=1" ];
 
       services.tlp.enable = lib.mkForce false;
       services.tuned.enable = true;
@@ -88,6 +89,13 @@
           device = "/swap/swapfile";
         }
       ];
+
+      virtualisation.kvmgt.enable = true;
+      virtualisation.kvmgt.vgpus = {
+        "i915-GVTg_V5_8" = {
+          uuid = [ "a297db4a-f4c2-11e6-90f6-d3b88d6c9525" ];
+        };
+      };
 
       disko.devices.disk.main.device = "/dev/nvme0n1";
       disko.devices.disk.main.type = "disk";
