@@ -231,8 +231,14 @@
         '';
       };
     };
-    homeManager =  { lib, ... }: {
+    homeManager =  { lib, pkgs, ... }: {
       programs.niri.settings = {
+        binds = {
+          "XF86Display" = {
+            hotkey-overlay.title = "Duplicate screen to HDMI Port";
+            action.spawn = [ "${pkgs.wl-mirror}/bin/wl-mirror" "--fullscreen-output" "HDMI-A-2" "eDP-1" ];
+          };
+        };
         input = {
           mouse = {
             accel-speed = -0.30;
