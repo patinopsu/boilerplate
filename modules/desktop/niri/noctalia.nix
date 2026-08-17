@@ -1,12 +1,5 @@
 { inputs, self, ... }: {
   den.aspects.noctalia-shell = {
-    nixos = { user, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
-        directories = [
-          ".config/noctalia/"
-        ];
-      };
-    };
     homeManager = { lib, ... }: {
       imports = [
         inputs.noctalia.homeModules.default
