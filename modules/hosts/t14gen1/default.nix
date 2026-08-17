@@ -138,7 +138,6 @@
         };
       };
 
-      services.throttled.enable = true;
 
       disko.devices.lvm_vg.pool.type = "lvm_vg";
 
