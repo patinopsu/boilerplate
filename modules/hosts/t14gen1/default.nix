@@ -99,7 +99,7 @@
         };
       };
 
-      disko.devices.disk.main.device = "/dev/nvme0n1";
+      disko.devices.disk.main.device = "/dev/disk/by-id/nvme-KINGBANK_KP230_CP153BB2304897";
       disko.devices.disk.main.type = "disk";
       disko.devices.disk.main.content.type = "gpt";
 
