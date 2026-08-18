@@ -5,6 +5,7 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
+      den.aspects.gpu-screen-recorder
       den.aspects.noctalia-shell
     ];
 
@@ -76,6 +77,7 @@
       imports = [
         inputs.niri.homeModules.niri
       ];
+
       programs.niri = {
         enable = true;
         package = pkgs.niri-unstable;
@@ -118,26 +120,32 @@
               repeat = false;
               action.toggle-overview = [];
             };
+
             "Mod+Q" = {
               repeat = false;
               action.close-window = [];
             };
+
             "Mod+Return" = {
               hotkey-overlay.title = "Open a Good-Ol Terminal";
               action.spawn = [ "${pkgs.kitty}/bin/kitty" ];
             };
+
             "Alt+Space" = {
               hotkey-overlay.title = "Open Vicinae, An App Launcher";
               action.spawn = [ "vicinae" "toggle" ];
             };
+
             "Mod+E" = {
               hotkey-overlay.title = "Open File Manager";
               action.spawn = [ "${pkgs.kitty}/bin/kitty" "yazi" ];
             };
+
             "Mod+V" = {
               hotkey-overlay.title = "Clipboard History";
               action.spawn = [ "xdg-open" "vicinae://launch/clipboard/history" ];
             };
+
             "Mod+L" = {
               hotkey-overlay.title = "Lock the System";
               action.spawn = [ "noctalia" "msg" "session" "lock"  ];
@@ -147,38 +155,47 @@
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "media" "next" ];
             };
+
             "XF86AudioStop" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "media" "pause" ];
             };
+
             "XF86AudioPrev" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "media" "previous" ];
             };
+
             "XF86AudioNext" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "media" "next" ];
             };
+
             "XF86MonBrightnessUp" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "brightness-up" ];
             };
+
             "XF86MonBrightnessDown" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "brightness-down" ];
             };
+
             "XF86AudioRaiseVolume" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "volume-up" ];
             };
+
             "XF86AudioLowerVolume" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "volume-down" ];
             };
+
             "XF86AudioMute" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "volume-mute" ];
             };
+
             "XF86AudioMicMute" = {
               allow-when-locked = true;
               action.spawn = [ "noctalia" "msg" "mic-mute" ];
@@ -192,6 +209,18 @@
             "Ctrl+Alt+Delete" = {
               hotkey-overlay.title = "Open Session Menu";
               action.spawn = [ "noctalia" "msg" "panel-toggle" "session" ];
+            };
+
+            "Print" = {
+              allow-when-locked = false;
+              hotkey-overlay.title = "Screenshot Region";
+              action.spawn = [ "noctalia" "msg" "screenshot-region" ];
+            };
+
+            "Mod+Print" = {
+              allow-when-locked = false;
+              hotkey-overlay.title = "Screenshot Active Monitor";
+              action.spawn = [ "noctalia" "msg" "screenshot-fullscreen" ];
             };
 
             "Mod+A".action.focus-column-left = [];
@@ -272,21 +301,6 @@
 
             "Mod+Alt+V".action.toggle-window-floating = [];
             "Mod+Shift+Slash".action.show-hotkey-overlay = [];
-
-            "Print" = {
-              allow-when-locked = false;
-              action.spawn = [ "noctalia" "msg" "screenshot-region" ];
-            };
-
-            "Mod+Print" = {
-              allow-when-locked = false;
-              action.spawn = [ "noctalia" "msg" "screenshot-fullscreen" ];
-            };
-
-            "Alt+Print" = {
-              allow-when-locked = false;
-              action.spawn = [ "${self.outPath}/assets/scripts/screenshots.sh" "window" ];
-            };
           };
 
           window-rules = [
@@ -305,34 +319,22 @@
               "clip-to-geometry" = true;
             }
             {
-              matches = [
-                { "app-id" = "firefox$"; title = "^Picture-in-Picture$"; }
-              ];
+              matches = [{ "app-id" = "r#^zen-twilight$#"; title = "^Picture-in-Picture$"; }];
               "open-floating" = true;
             }
             {
-              matches = [
-                { "app-id" = "r#^zen-twilight$#"; }
-              ];
+              matches = [{ "app-id" = "r#^zen-twilight$#"; }];
               "draw-border-with-background" = false;
               "opacity" = 0.98;
             }
           ];
           layer-rules = [
             {
-              matches = [
-                {
-                  namespace = "^noctalia-backdrop";
-                }
-              ];
+              matches = [{ namespace = "^noctalia-backdrop"; }];
               "place-within-backdrop" = true;
             }
             {
-              matches = [
-                {
-                  namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd)$";
-                }
-              ];
+              matches = [{namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd)$";}];
               "background-effect" = {
                 xray = false;
               };
