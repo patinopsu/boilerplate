@@ -217,6 +217,12 @@
               action.spawn = [ "noctalia" "msg" "screenshot-region" ];
             };
 
+            "Ctrl+Print" = {
+              allow-when-locked = false;
+              hotkey-overlay.title = "Screenshot Region";
+              action.spawn = [ "noctalia" "msg" "plugin" "noctalia/screen_recorder:service" "all" "toggle" ];
+            };
+
             "Mod+Print" = {
               allow-when-locked = false;
               hotkey-overlay.title = "Screenshot Active Monitor";
