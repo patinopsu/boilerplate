@@ -12,7 +12,6 @@
       den.aspects.network
       den.aspects.nix
       den.aspects.niri
-      #den.aspects.kineticwe
 
       # --- Hardware Driver --- #
       den.aspects.intelgpu
@@ -40,6 +39,7 @@
       den.aspects.proton-pass-cli
       den.aspects.mpv
       den.aspects.vicinae
+      den.aspects.distrobox
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
