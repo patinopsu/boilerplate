@@ -29,6 +29,10 @@
           location = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo";
         }
       ];
+
+      services.flatpak.packages = [
+        { appId = "io.github.kolunmi.Bazaar"; origin = "flathub"; }
+      ];
     };
   };
 }
