@@ -17,6 +17,8 @@
 
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
+          ".config/autostart"
+          ".local/share/applications"
           ".local/share/keyrings"
         ];
         
