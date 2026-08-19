@@ -62,7 +62,6 @@
 
         shellAliases = {
           cd = "z";
-          beaufetch = "fastfetch -c ${self.outPath}/assets/fastfetch.jsonc -l ${self.outPath}/assets/nix-snowflakes.png";
         };
       };
     };
