@@ -5,6 +5,7 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
+      den.aspects.file-manager
       den.aspects.gpu-screen-recorder
       den.aspects.noctalia-shell
     ];
