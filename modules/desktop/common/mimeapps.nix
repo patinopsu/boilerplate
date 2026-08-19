@@ -1,5 +1,5 @@
 { den, ... }: {
-  den.aspects.xdg-mimeapps = {
+  den.aspects.mimeapps = {
     nixos = {
       xdg.mimeApps = {
         enable = true;
