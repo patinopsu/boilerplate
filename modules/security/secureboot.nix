@@ -10,6 +10,9 @@
           "/var/lib/sbctl"
           "/var/lib/auto-cryptenroll"
         ];
+        files = [
+          "/var/lib/systemd/pcrlock.json"
+        ];
       };
 
       boot.loader.systemd-boot.enable = lib.mkForce false;
