@@ -47,7 +47,7 @@
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t14-intel-gen1
       ];
 
-      boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" "i915.enable_gvt=1" ];
+      boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" "i915.enable_gvt=1" "psmouse.proto=imps" "kvmfr.static_size_mb=32" ];
 
       services.tlp.enable = lib.mkForce false;
       services.tuned.enable = true;
@@ -60,9 +60,9 @@
       ]);
 
       boot.initrd.availableKernelModules = [ "tpm_tis" "xhci_pci" "nvme" "usbhid" "usb_storage" "rtsx_pci_sdmmc" "sd_mod" ];
-      boot.initrd.kernelModules = [ "dm-snapshot" ];
+      boot.initrd.kernelModules = [ "dm-snapshot" "kvmfr" ];
       boot.kernelModules = [ "kvm-intel" ];
-      boot.extraModulePackages = [ ];
+      boot.extraModulePackages = [ config.boot.kernelPackages.kvmfr ];
 
       users.users.${user.name} = {
         initialPassword = lib.mkForce null;
@@ -78,16 +78,21 @@
       boot.lanzaboote.configurationLimit = 8;
       boot.lanzaboote.measuredBoot = {
         enable = true;
-        pcrs = [
-          0
-          7
-        ];
+        pcrs = [ 0 7 ];
       };
       
       swapDevices = [
         {
           device = "/swap/swapfile";
         }
+      ];
+
+      services.udev.extraRules = ''
+        ACTION=="add|change", KERNEL=="event[0-9]*", ENV{ID_PATH}=="platform-i8042-serio-1", ENV{ID_INPUT_POINTINGSTICK}="1"
+      '';
+
+      systemd.tmpfiles.rules = [
+        "f /dev/shm/looking-glass 0660 ${user.name} kvm -"
       ];
       
       services.throttled.enable = true;
@@ -98,6 +103,38 @@
           uuid = [ "a297db4a-f4c2-11e6-90f6-d3b88d6c9525" ];
         };
       };
+
+      services.udev.packages = lib.singleton (pkgs.writeTextFile
+        { 
+          name = "kvmfr";
+          text = ''
+            SUBSYSTEM=="kvmfr", GROUP="kvm", MODE="0660", TAG+="uaccess"
+          '';
+          destination = "/etc/udev/rules.d/70-kvmfr.rules";
+        }
+      );
+
+      virtualisation.libvirtd.qemu = {
+        verbatimConfig = ''
+          namespaces = []
+          cgroup_device_acl = [
+            "/dev/null", "/dev/full", "/dev/zero",
+            "/dev/random", "/dev/urandom",
+            "/dev/ptmx", "/dev/kvm", "/dev/kqemu",
+            "/dev/rtc","/dev/hpet", "/dev/vfio/vfio",
+            "/dev/kvmfr0"
+          ]
+        '';
+      };
+
+      environment.systemPackages = with pkgs; [
+        looking-glass-client
+      ];
+
+      environment.etc."looking-glass-client.ini".text = ''
+        [app]
+        shmFile=/dev/shm/looking-glass
+      '';
 
       disko.devices.disk.main.device = "/dev/disk/by-id/nvme-KINGBANK_KP230_CP153BB2304897";
       disko.devices.disk.main.type = "disk";
