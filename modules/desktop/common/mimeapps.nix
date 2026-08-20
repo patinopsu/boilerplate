@@ -17,10 +17,13 @@
           "application/x-extension-xhtml" = [ "zen-twilight.desktop" ];
           "application/x-extension-xht" = [ "zen-twilight.desktop" ];
 
-          # File Thingy
+          # Archives
           "application/zip:*.zip" = [ "org.kde.ark.desktop" ];
           "application/zip:*.zipx" = [ "org.kde.ark.desktop" ];
           "application/vnd.rar" = [ "org.kde.ark.desktop" ];
+
+          # Documents
+          "application/pdf" = [ "org.kde.okular.desktop" ];
 
           # Image Viewer
           "image/*" = [ "org.gnome.Loupe.desktop" ];

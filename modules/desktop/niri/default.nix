@@ -24,7 +24,6 @@
         
         files = [
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
-          { file = ".config/mimeapps.list"; how = "symlink"; }
         ];
       };
 
@@ -71,6 +70,7 @@
 
       environment.systemPackages = with pkgs; [
         loupe
+        kdePackages.okular
         xwayland-satellite
         wl-clipboard
       ];
