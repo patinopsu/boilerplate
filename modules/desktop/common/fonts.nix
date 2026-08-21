@@ -11,9 +11,9 @@
 
       fonts.fontconfig.localConf = ''
         <?xml version="1.0"?>
-        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+        <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
         <fontconfig>
-          <dir prefix="absolute">/persistent/fonts</dir>
+          <dir>/usr/share/fonts</dir>
         </fontconfig>
       '';
 
