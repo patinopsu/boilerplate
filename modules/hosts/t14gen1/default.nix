@@ -299,14 +299,13 @@
             action.spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel"  ];
           };
         };
-        outputs = {
-          "eDP-1" = {
-            enable = true;
-            scale = 1;
-            mode = {
-              width = 1920;
-              height = 1080;
-            };
+
+        outputs."eDP-1" = {
+          enable = true;
+          scale = 1.2;
+          mode = {
+            width = 1920;
+            height = 1080;
           };
         };
       };
