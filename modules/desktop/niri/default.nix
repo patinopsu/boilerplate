@@ -119,9 +119,7 @@
           };
 
           prefer-no-csd = true;
-          overview = {
-            workspace-shadow.enable = true;
-          };
+          overview.workspace-shadow.enable = true;
 
           binds = {
             "Mod+Tab" = {
