@@ -48,7 +48,11 @@
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t14-intel-gen1
       ];
 
-      boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" "i915.enable_gvt=1" "psmouse.proto=imps" "kvmfr.static_size_mb=32" ];
+      boot.kernelParams = [
+        "i915.enable_gvt=1"
+        "psmouse.proto=imps"
+        "kvmfr.static_size_mb=64"
+      ];
 
       services.tlp.enable = lib.mkForce false;
       services.tuned.enable = true;
