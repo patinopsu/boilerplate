@@ -3,16 +3,13 @@
     nixos = { user, ...}: {
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
-          ".vscode"
-          ".vscode-shared"
-          ".config/Code"
+          ".config/zed"
         ];
       };
     };
 
     homeManager = {
-      programs.vscode.enable = true;
-      stylix.targets.vscode.enable = false;
+      programs.zed-editor.enable = true;
     };
   };
 }
