@@ -248,7 +248,7 @@
         unitConfig.DefaultDependencies = "no";
         serviceConfig.Type = "oneshot";
 
-        script = /* sh */ ''
+        script = ''
           mkdir -p /btrfs_tmp
           mount /dev/pool/sys /btrfs_tmp
 
