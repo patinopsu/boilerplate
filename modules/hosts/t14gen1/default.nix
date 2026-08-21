@@ -1,6 +1,9 @@
 { inputs, den, ... }: {
   den.hosts.x86_64-linux.t14gen1 = {
     users.patin = {};
+    settings = {
+      persistPath = "/persistent";
+    };
   };
 
   den.aspects.t14gen1 = {
@@ -90,7 +93,7 @@
         enable = true;
         pcrs = [ 0 7 ];
       };
-      
+
       swapDevices = [
         {
           device = "/swap/swapfile";
@@ -104,7 +107,7 @@
       systemd.tmpfiles.rules = [
         "f /dev/shm/looking-glass 0660 ${user.name} kvm -"
       ];
-      
+
       services.throttled.enable = true;
 
       virtualisation.kvmgt.enable = true;
