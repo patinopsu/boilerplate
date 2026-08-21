@@ -54,9 +54,7 @@
         "kvmfr.static_size_mb=64"
       ];
 
-      services.tlp.enable = lib.mkForce false;
-      services.tuned.enable = true;
-      services.power-profiles-daemon.enable = false;
+      services.upower.enable = true;
 
       hardware.graphics.extraPackages = lib.mkForce (with pkgs; [
         vpl-gpu-rt
