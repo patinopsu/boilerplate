@@ -290,13 +290,13 @@
 
         binds = {
           "XF86Display" = {
-            hotkey-overlay.title = "Duplicate screen to HDMI Port";
-            action.spawn = [ "${pkgs.wl-mirror}/bin/wl-mirror" "--fullscreen-output" "HDMI-A-2" "eDP-1" ];
+            hotkey-overlay.title = "Duplicate Internal Display to External Display";
+            action.spawn = [ "noctalia" "msg" "panel-toggle" "elijaharch/wl-screen-mirror:controls"  ];
           };
-        };
-        input = {
-          mouse = {
-            accel-speed = -0.30;
+
+          "XF86NotificationCenter" = {
+            hotkey-overlay.title = "Open Display Configuration";
+            action.spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel"  ];
           };
         };
         outputs = {
