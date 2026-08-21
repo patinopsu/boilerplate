@@ -21,7 +21,7 @@
           ".local/share/applications"
           ".local/share/keyrings"
         ];
-        
+
         files = [
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
         ];
@@ -89,6 +89,7 @@
             mouse = {
               accel-profile = "flat";
             };
+
             keyboard = {
               numlock = true;
               repeat-delay = 500;
@@ -98,6 +99,10 @@
               };
             };
           };
+
+          clipboard.disable-primary = true;
+          hotkey-overlay.skip-at-startup = true;
+
           layout = {
             gaps = 10;
             center-focused-column = "never";
