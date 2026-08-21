@@ -4,6 +4,7 @@
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
           ".config/zed"
+          ".local/share/zed"
         ];
       };
     };
