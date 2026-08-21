@@ -311,7 +311,7 @@
       };
 
       programs.noctalia.settings = {
-        wallpaper.path = lib.mkForce "/mnt/d/Pictures/Wallpapers";
+        wallpaper.path = "/mnt/d/Pictures/Wallpapers";
       };
     };
   };
