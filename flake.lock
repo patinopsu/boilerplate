@@ -238,6 +238,26 @@
         "type": "github"
       }
     },
+    "gaze": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1787171182,
+        "narHash": "sha256-+ERbXjxN4qCZ/w+bQn2LY0j5eWAlSoJmih5Kpo8zOs0=",
+        "owner": "GunduLabs",
+        "repo": "gaze",
+        "rev": "ddfb8b1e84a5d7423589b094b7d49f77d2b1a649",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GunduLabs",
+        "repo": "gaze",
+        "type": "github"
+      }
+    },
     "gnome-shell": {
       "flake": false,
       "locked": {
@@ -674,6 +694,7 @@
         "disko": "disko",
         "flake-file": "flake-file",
         "flake-parts": "flake-parts",
+        "gaze": "gaze",
         "home-manager": "home-manager",
         "import-tree": "import-tree",
         "kineticwe": "kineticwe",

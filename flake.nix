@@ -55,6 +55,10 @@
       url = "gitlab:theblackdon/kineticwe";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    gaze = {
+      url = "github:GunduLabs/gaze";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } (inputs.import-tree ./modules);
