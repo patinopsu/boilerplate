@@ -21,6 +21,7 @@
       programs.fastfetch.enable = true;
       programs.atuin.enable = true;
       programs.lazygit.enable = true;
+      programs.bat.enable = true;
 
       programs.zoxide = {
         enable = true;
