@@ -22,6 +22,7 @@
       den.aspects.hardening
       den.aspects.sudo
       den.aspects.secureboot
+      den.aspects.gaze
 
       # --- Services --- #
       den.aspects.tailscale
@@ -58,6 +59,13 @@
         intel-media-driver
         intel-compute-runtime
       ]);
+
+      services.gaze.settings.cameras = {
+        dark_luma_threshold = 20;
+        rgb = "usb:04f2:b6d0";
+        emitter_enabled = true;
+        ir = "usb:04f2:b6d0";
+      };
 
       boot.initrd.availableKernelModules = [ "tpm_tis" "xhci_pci" "nvme" "usbhid" "usb_storage" "rtsx_pci_sdmmc" "sd_mod" ];
       boot.initrd.kernelModules = [ "dm-snapshot" "kvmfr" ];
