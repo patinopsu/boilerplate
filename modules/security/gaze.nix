@@ -52,7 +52,6 @@
           };
         };
       };
-      security.pam.services.login.gaze.enable = true;
     };
   };
 }
