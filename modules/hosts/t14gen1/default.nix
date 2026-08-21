@@ -283,6 +283,11 @@
     };
     homeManager =  { lib, pkgs, ... }: {
       programs.niri.settings = {
+        input.trackpoint = {
+          accel-speed = 0.49;
+          accel-profile = "adaptive";
+        };
+
         binds = {
           "XF86Display" = {
             hotkey-overlay.title = "Duplicate screen to HDMI Port";
