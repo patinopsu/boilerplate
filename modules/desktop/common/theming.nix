@@ -13,13 +13,13 @@
 
         fonts = {
           serif = {
-            name = "Noto Serif";
-            package = pkgs.noto-fonts;
+            name = "IBM Plex Serif";
+            package = pkgs.ibm-plex;
           };
 
           sansSerif = {
-            name = "Inter Display";
-            package = pkgs.noto-fonts;
+            name = "IBM Plex Sans";
+            package = pkgs.ibm-plex;
           };
 
           monospace = {
