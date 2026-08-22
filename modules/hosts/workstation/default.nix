@@ -41,6 +41,7 @@
       den.aspects.mpv
       den.aspects.vicinae
       den.aspects.distrobox
+      den.aspects.syncthing
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
