@@ -16,15 +16,15 @@
             name = "Noto Serif";
             package = pkgs.noto-fonts;
           };
-          
+
           sansSerif = {
             name = "Inter Display";
             package = pkgs.noto-fonts;
           };
 
           monospace = {
-            name = "JetBrainsMono Nerd Font";
-            package = pkgs.nerd-fonts.jetbrains-mono;
+            name = "Iosevka Nerd Font Mono";
+            package = pkgs.nerd-fonts.iosevka;
           };
 
           emoji = {
@@ -67,7 +67,7 @@
         };
       }];
     };
-    
+
     homeManager = {
       gtk = {
         gtk3.extraConfig = {
