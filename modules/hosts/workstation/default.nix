@@ -16,6 +16,7 @@
       # --- Hardware Driver --- #
       den.aspects.intelgpu
       den.aspects.nvidia
+      den.aspects.android
 
       # --- Security --- #
       den.aspects.hardening
