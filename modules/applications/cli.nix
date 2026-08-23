@@ -15,7 +15,6 @@
       ];
 
       programs.nix-index-database.comma.enable = true;
-      programs.yazi.enable = true;
       programs.cava.enable = true;
       programs.btop.enable = true;
       programs.fastfetch.enable = true;
