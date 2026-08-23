@@ -7,7 +7,7 @@
     };
   };
 
-  den.aspects.workstation = {
+  den.aspects.workstation = { user, ... }: {
     includes = [
       # --- Core --- #
       den.aspects.boot
@@ -47,7 +47,7 @@
       den.aspects.syncthing
     ];
 
-    nixos = { config, lib, pkgs, user, ... }: {
+    nixos = { config, lib, ... }: {
       imports = [
         inputs.disko.nixosModules.disko
       ];
@@ -60,7 +60,7 @@
       boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" ];
 
       time.timeZone = "Asia/Bangkok";
-      networking.hostName = "orion"; 
+      networking.hostName = "orion";
 
       users.users.${user.name} = {
         initialPassword = lib.mkForce null;

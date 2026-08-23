@@ -1,6 +1,6 @@
 {
   den.aspects.virtualization = { host, user, ... }: {
-    nixos = { lib, pkgs, ... }: {
+    nixos = { pkgs, ... }: {
       preservation.preserveAt."${host.settings.persistPath}".directories = [
         "/var/lib/libvirt"
       ];

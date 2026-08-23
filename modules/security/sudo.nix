@@ -1,4 +1,4 @@
-{ inputs, den, ... }: {
+{
   den.aspects.sudo = {
     nixos = {
       security.sudo = {

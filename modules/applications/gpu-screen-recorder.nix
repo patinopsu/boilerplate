@@ -1,6 +1,6 @@
-{ inputs, den, ... }: {
+{
   den.aspects.gpu-screen-recorder = {
-    nixos = { pkgs, ... }: {
+    nixos = {
       programs.gpu-screen-recorder.enable = true;
     };
   };

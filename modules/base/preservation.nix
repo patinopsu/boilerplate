@@ -1,5 +1,5 @@
-{ inputs, den, ... }: {
-  den.aspects.preservation.nixos = { host, user, ...}: {
+{ inputs, ... }: {
+  den.aspects.preservation.nixos = { host, ... }: {
     imports = [
       inputs.preservation.nixosModules.default
     ];

@@ -1,6 +1,6 @@
-{ ... }: {
+{
   den.aspects.kitty = {
-    homeManager = { pkgs, ... }: {
+    homeManager = {
       programs.kitty = {
         enable = true;
         settings = {

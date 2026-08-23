@@ -1,15 +1,15 @@
-{ inputs, den, ... }: {
+{
   den.aspects.qt-workaround = {
-    nixos = { lib, pkgs, ... }: {
+    nixos = {
       stylix.targets.qt.enable = false;
       qt = {
         enable = true;
         platformTheme = "qt5ct";
         style = "kvantum";
       };
-  
+
     };
-    
+
     homeManager = { config, pkgs, lib, ... }: {
       stylix.targets.qt.enable = false;
       home.packages = [

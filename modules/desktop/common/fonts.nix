@@ -1,4 +1,4 @@
-{ den, ... }: {
+{
   den.aspects.fonts = { host, ... }: {
     nixos = {
       fonts.fontconfig = {

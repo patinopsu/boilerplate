@@ -1,13 +1,13 @@
-{ den, ... }: {
+{
   den.aspects.proton-pass-cli = { host, user, ... }: {
-    nixos = { user, ... }: {
+    nixos = {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".local/share/proton-pass-cli"
         ];
       };
     };
-    homeManager = { pkgs, user, ... }: {
+    homeManager = { pkgs, ... }: {
       home.packages = with pkgs; [
         proton-pass-cli
       ];

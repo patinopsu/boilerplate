@@ -4,10 +4,9 @@
       den.batteries.define-user
       den.batteries.primary-user
       den.batteries.host-aspects
-      (den.batteries.user-shell "zsh")
     ];
 
-    nixos = { lib, pkgs, ... }: {
+    nixos = {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".ssh"

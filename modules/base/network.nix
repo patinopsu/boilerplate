@@ -1,6 +1,6 @@
-{ inputs, den, ... }: {
+{
   den.aspects.network = {
-    nixos = { user, ... }: {
+    nixos = {
       preservation.preserveAt."/persistent"= {
         directories = [
           "/var/lib/NetworkManager"

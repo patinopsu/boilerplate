@@ -1,5 +1,5 @@
-{ den, inputs, self, ... }: {
-  den.aspects.niri = { host, user, ... }: {
+{ den, inputs, ... }: {
+  den.aspects.niri = { user, ... }: {
     includes = [
       den.aspects.i18n
       den.aspects.i2c
@@ -15,7 +15,7 @@
       den.aspects.gpu-screen-recorder
     ];
 
-    nixos = { config, lib, pkgs, ... }: {
+    nixos = { lib, pkgs, ... }: {
       nixpkgs.overlays = [
         inputs.niri.overlays.niri
       ];
@@ -81,7 +81,7 @@
       ];
     };
 
-    homeManager = { config, lib, pkgs, ... }: {
+    homeManager = { pkgs, ... }: {
       imports = [
         inputs.niri.homeModules.niri
       ];

@@ -1,9 +1,9 @@
-{ self, den, lib, inputs, ... }: {
+{ self, lib, inputs, ... }: {
   imports = [
     inputs.den.flakeModules.dendritic
     inputs.flake-file.flakeModules.default
   ];
-  
+
   den.default = {
     nixos = {
       system.stateVersion = "26.05";

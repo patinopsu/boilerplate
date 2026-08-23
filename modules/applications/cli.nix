@@ -1,4 +1,4 @@
-{ self, inputs, ... }:{
+{ inputs, ... }: {
   den.aspects.zsh = { host, user, ... }: {
     nixos = {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {

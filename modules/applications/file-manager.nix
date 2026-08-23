@@ -1,6 +1,6 @@
 {
   den.aspects.file-manager = {
-    homeManager = { pkgs, ... }: {
+    homeManager = {
       programs.yazi = {
         enable = true;
       };

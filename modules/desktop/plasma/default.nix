@@ -7,12 +7,12 @@
       den.aspects.stylix
     ];
 
-    nixos = { lib, pkgs, host, user, ... }: {
+    nixos = { pkgs, user, ... }: {
       preservation.preserveAt."/persistent" = {
         directories = [
           "/var/lib/AccountsService"
           {
-            directory = "/var/lib/plasmalogin"; 
+            directory = "/var/lib/plasmalogin";
             user = "plasmalogin";
             group = "plasmalogin";
           }
@@ -23,7 +23,7 @@
         directories = [
           ".config/KDE"
           ".config/kde.org"
-          ".config/kate" 
+          ".config/kate"
           ".config/klassy"
 
           ".local/share/klipper"
@@ -69,8 +69,8 @@
           # Shortcuts & Security
           { file = ".config/kglobalshortcutsrc"; how = "symlink"; }
           { file = ".config/kwalletrc"; how = "symlink"; }
-          { file = ".config/klipperrc"; how = "symlink"; }      # Clipboard history  
-          
+          { file = ".config/klipperrc"; how = "symlink"; }      # Clipboard history
+
           # System Utilities & Apps
           { file = ".config/dolphinrc"; how = "symlink"; }      # File manager
           { file = ".config/spectaclerc"; how = "symlink"; }    # Screenshots
@@ -91,12 +91,12 @@
           { file = ".config/libaccounts-glib"; how = "symlink"; }
           { file = ".config/QtProject.conf"; how = "symlink"; }
           { file = ".config/qtvirtualkeyboard"; how = "symlink"; }
-          
+
           # Other / Misc Stuff
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
           { file = ".config/mimeapps.list"; how = "symlink"; }
           { file = ".local/share/user-places.xbel"; how = "symlink"; }
-          
+
         ];
       };
 

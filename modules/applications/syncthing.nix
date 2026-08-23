@@ -1,4 +1,4 @@
-{ inputs, den, ... }: {
+{
   den.aspects.syncthing = { host, user, ... }: {
     nixos = {
       services.syncthing = {

@@ -1,4 +1,4 @@
-{ inputs, self, ... }: {
+{ inputs, ... }: {
   den.aspects.noctalia-shell = {
     homeManager = { lib, ... }: {
       imports = [
@@ -8,7 +8,7 @@
         enable = true;
         systemd.enable = lib.mkDefault true;
         settings = lib.mapAttrsRecursive (name: value: lib.mkDefault value) (
-          builtins.fromTOML (builtins.readFile ./noctalia.toml)
+          fromTOML (builtins.readFile ./noctalia.toml)
         );
       };
     };

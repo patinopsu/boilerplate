@@ -1,4 +1,4 @@
-{ inputs, den, ... }: {
+{ inputs, ... }: {
   den.aspects.gaze = { host, ... }: {
     nixos = {
       imports = [

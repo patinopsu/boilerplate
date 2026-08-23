@@ -1,4 +1,4 @@
-{ inputs, den, ... }: {
+{ inputs, ... }: {
   den.aspects.secureboot = { host, user, ... }: {
     nixos = { lib, pkgs, ... }: {
       imports = [

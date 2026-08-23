@@ -1,6 +1,6 @@
-{ inputs, den, ... }: {
+{ inputs, ... }: {
   den.aspects.browsers = { host, user, ... }: {
-    nixos = { pkgs, ... }: {
+    nixos = {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".config/zen"

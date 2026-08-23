@@ -1,6 +1,6 @@
 { inputs, ... }: {
   den.aspects.flatpak = { host, user, ... }: {
-    nixos = { pkgs, ... }: {
+    nixos = {
       imports = [
         inputs.nix-flatpak.nixosModules.nix-flatpak
       ];

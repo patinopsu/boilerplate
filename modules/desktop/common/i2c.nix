@@ -1,4 +1,4 @@
-{ den, ... }: {
+{
   den.aspects.i2c = { user, ... }: {
     nixos = { pkgs, ... }: {
       hardware.i2c.enable = true;

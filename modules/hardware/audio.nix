@@ -1,6 +1,6 @@
 {
   den.aspects.audio = {
-    nixos = { lib, pkgs, ... }: {
+    nixos = {
       services.pipewire = {
         enable = true;
         pulse.enable = true;

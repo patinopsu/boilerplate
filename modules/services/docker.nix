@@ -1,4 +1,4 @@
-{ den, ... }: {
+{
   den.aspects.docker = { host, user, ... }: {
     nixos = {
       preservation.preserveAt."${host.settings.persistPath}".directories = [

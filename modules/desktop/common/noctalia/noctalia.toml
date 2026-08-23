@@ -343,42 +343,7 @@ overviewEnabled = true
 enabled = false
 
 [dock]
-animationSpeed = 1
-backgroundOpacity = 0.80000000000000004
-background_opacity = 0.80000000000000004
-colorizeIcons = false
-deadOpacity = 0.59999999999999998
-displayMode = "auto_hide"
-dockType = "floating"
-enabled = true
-floatingRatio = 1
-groupApps = false
-groupClickAction = "cycle"
-groupContextMenuMode = "extended"
-groupIndicatorStyle = "dots"
-icon_size = 40
-inactiveIndicators = true
-indicatorColor = "primary"
-indicatorOpacity = 0.59999999999999998
-indicatorThickness = 3
-launcherIcon = ""
-launcherIconColor = "none"
-launcherPosition = "start"
-launcherUseDistroLogo = true
-layer = "overlay"
-magnification = false
-margin_edge = 8
-monitors = []
-onlySameOutput = true
-pinnedApps = []
-pinnedStatic = false
-position = "bottom"
-reserve_space = false
-showDockIndicator = false
-showLauncherIcon = false
-sitOnFrame = false
-size = 1
-smart_auto_hide = true
+enabled = false
 
 [general]
 allowPanelsOnScreenWithoutBar = true

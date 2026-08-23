@@ -1,10 +1,10 @@
 { inputs, ... }: {
   den.aspects.vicinae = {
-    homeManager = { pkgs, ... }: {
+    homeManager = {
       imports = [
         inputs.vicinae.homeManagerModules.default
       ];
-      
+
       programs.vicinae = {
         enable = true;
         systemd = {
