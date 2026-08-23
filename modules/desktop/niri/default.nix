@@ -5,12 +5,14 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
+      den.aspects.noctalia-shell
+
+      den.aspects.mimeapps
       den.aspects.file-manager
       den.aspects.document-viewer
       den.aspects.image-viewer
 
       den.aspects.gpu-screen-recorder
-      den.aspects.noctalia-shell
     ];
 
     nixos = { config, lib, pkgs, ... }: {
