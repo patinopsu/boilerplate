@@ -5,7 +5,7 @@
         enable = true;
       };
 
-      xdg.mime.defaultApplications = {
+      xdg.mimeApps.defaultApplications = {
         "inode/directory" = [ "yazi.desktop" ];
       };
     };
