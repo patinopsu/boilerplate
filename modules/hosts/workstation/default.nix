@@ -2,6 +2,9 @@
 
   den.hosts.x86_64-linux.workstation = {
     users.patin = {};
+    settings = {
+      persistPath = "/persistent";
+    };
   };
 
   den.aspects.workstation = {
