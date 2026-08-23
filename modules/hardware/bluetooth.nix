@@ -1,7 +1,7 @@
 {
-  den.aspects.bluetooth = {
+  den.aspects.bluetooth = { host, ... }: {
     nixos = { lib, pkgs, ... }: {
-      preservation.preserveAt."/persistent" = {
+      preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/var/lib/bluetooth"
         ];

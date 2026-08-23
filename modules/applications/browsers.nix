@@ -1,7 +1,7 @@
 { inputs, den, ... }: {
-  den.aspects.browsers = {
-    nixos = { user, pkgs, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+  den.aspects.browsers = { host, user, ... }: {
+    nixos = { pkgs, ... }: {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".config/zen"
         ];
@@ -34,7 +34,7 @@
         };
       };
       home.sessionVariables = {
-        MOZ_DISABLE_RDD_SANDBOX = lib.mkDefault "1";  
+        MOZ_DISABLE_RDD_SANDBOX = lib.mkDefault "1";
       };
     };
   };

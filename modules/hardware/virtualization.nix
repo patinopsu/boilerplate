@@ -1,7 +1,7 @@
 {
-  den.aspects.virtualization = { user, ... }: {
+  den.aspects.virtualization = { host, user, ... }: {
     nixos = { lib, pkgs, ... }: {
-      preservation.preserveAt."/persistent".directories = [
+      preservation.preserveAt."${host.settings.persistPath}".directories = [
         "/var/lib/libvirt"
       ];
 
@@ -10,8 +10,8 @@
       networking.firewall.trustedInterfaces = [ "virbr0" ];
       programs.virt-manager.enable = true;
 
-      environment.systemPackages = with pkgs; [ 
-        dnsmasq 
+      environment.systemPackages = with pkgs; [
+        dnsmasq
       ];
 
       users.users.${user.name}.extraGroups = [ "libvirtd" "kvm" ];

@@ -1,11 +1,11 @@
 { inputs, ... }: {
-  den.aspects.flatpak = {
-    nixos = { user, pkgs, ... }: {
+  den.aspects.flatpak = { host, user, ... }: {
+    nixos = { pkgs, ... }: {
       imports = [
         inputs.nix-flatpak.nixosModules.nix-flatpak
       ];
 
-      preservation.preserveAt."/persistent" = {
+      preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/var/lib/flatpak"
         ];

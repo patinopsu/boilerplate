@@ -1,12 +1,12 @@
 { inputs, den, ... }: {
-  den.aspects.preservation.nixos = {
+  den.aspects.preservation.nixos = { host, user, ...}: {
     imports = [
       inputs.preservation.nixosModules.default
     ];
     preservation = {
       enable = true;
 
-      preserveAt."/persistent" = {
+      preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/etc/nixos"
           "/etc/nix"
@@ -25,7 +25,7 @@
           {
             directory = "/var/lib/timesync";
             inInitrd = true;
-          }  
+          }
           {
             directory = "/var/lib/nixos";
             inInitrd = true;
@@ -40,7 +40,7 @@
         ];
       };
     };
-    
+
     systemd.suppressedSystemUnits = [ "systemd-machine-id-commit.service" ];
   };
 }

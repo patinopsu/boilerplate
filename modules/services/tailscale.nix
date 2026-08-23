@@ -1,7 +1,7 @@
 { den, ... }: {
-  den.aspects.tailscale = { user, ... }: {
+  den.aspects.tailscale = { host, user, ... }: {
     nixos = {
-      preservation.preserveAt."/persistent".directories = [
+      preservation.preserveAt."${host.settings.persistPath}".directories = [
         "/var/lib/tailscale"
       ];
 

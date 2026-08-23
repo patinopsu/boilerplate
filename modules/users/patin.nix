@@ -1,5 +1,5 @@
 { den, ... }: {
-  den.aspects.patin = {
+  den.aspects.patin = { host, user, ... }: {
     includes = [
       den.batteries.define-user
       den.batteries.primary-user
@@ -7,8 +7,8 @@
       (den.batteries.user-shell "zsh")
     ];
 
-    nixos = { lib, user, pkgs, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+    nixos = { lib, pkgs, ... }: {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".ssh"
           ".local/state"

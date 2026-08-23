@@ -1,11 +1,11 @@
 { inputs, den, ... }: {
-  den.aspects.secureboot = {
+  den.aspects.secureboot = { host, user, ... }: {
     nixos = { lib, pkgs, ... }: {
       imports = [
         inputs.lanzaboote.nixosModules.lanzaboote
       ];
 
-      preservation.preserveAt."/persistent" = {
+      preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/var/lib/sbctl"
           "/var/lib/auto-cryptenroll"

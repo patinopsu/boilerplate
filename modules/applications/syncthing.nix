@@ -1,12 +1,12 @@
 { inputs, den, ... }: {
-  den.aspects.syncthing = { user, ... }: {
+  den.aspects.syncthing = { host, user, ... }: {
     nixos = {
       services.syncthing = {
         enable = true;
         openDefaultPorts = true;
         user = "${user.name}";
-        dataDir = "/persistent/syncthing/data";
-        configDir = "/persistent/syncthing/config";
+        dataDir = "${host.settings.persistPath}/syncthing/data";
+        configDir = "${host.settings.persistPath}/syncthing/config";
       };
     };
   };

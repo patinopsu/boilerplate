@@ -1,7 +1,7 @@
 { inputs, den, ... }: {
-  den.aspects.vscode = {
-    nixos = { user, ...}: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+  den.aspects.vscode = { host, user, ... }: {
+    nixos = {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".config/zed"
           ".local/share/zed"

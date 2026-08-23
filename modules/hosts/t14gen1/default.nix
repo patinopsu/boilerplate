@@ -20,6 +20,7 @@
       den.aspects.audio
       den.aspects.bluetooth
       den.aspects.intelgpu
+      den.aspects.android
 
       # --- Security --- #
       den.aspects.hardening
@@ -43,6 +44,7 @@
       den.aspects.proton-pass-cli
       den.aspects.mpv
       den.aspects.vicinae
+      den.aspects.syncthing
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
@@ -118,7 +120,7 @@
       };
 
       services.udev.packages = lib.singleton (pkgs.writeTextFile
-        { 
+        {
           name = "kvmfr";
           text = ''
             SUBSYSTEM=="kvmfr", GROUP="kvm", MODE="0660", TAG+="uaccess"

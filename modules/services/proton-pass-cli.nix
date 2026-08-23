@@ -1,7 +1,7 @@
 { den, ... }: {
-  den.aspects.proton-pass-cli = { user, ... }: {
+  den.aspects.proton-pass-cli = { host, user, ... }: {
     nixos = { user, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".local/share/proton-pass-cli"
         ];
@@ -40,7 +40,7 @@
           Type = "simple";
           Environment = [
             "PROTON_PASS_LINUX_KEYRING=dbus"
-          ];    
+          ];
           ExecStart = "${pkgs.proton-pass-cli}/bin/pass-cli ssh-agent start --socket-path /home/${user.name}/.ssh/proton-pass-agent.sock --refresh-interval 20";
           Restart = "on-failure";
           RestartSec = "5s";

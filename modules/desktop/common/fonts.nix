@@ -1,5 +1,5 @@
 { den, ... }: {
-  den.aspects.fonts = {
+  den.aspects.fonts = { host, ... }: {
     nixos = {
       fonts.fontconfig = {
         enable = true;
@@ -27,9 +27,9 @@
           "resolve-symlinks"
         ];
       };
-      
+
       fileSystems."/usr/share/fonts/windows" = {
-        device = "/persistent/fonts/Windows";
+        device = "${host.settings.persistPath}/fonts/Windows";
         fsType = "fuse.bindfs";
         options = [
           "ro"
@@ -40,7 +40,7 @@
       };
 
       fileSystems."/usr/share/fonts/custom" = {
-        device = "/persistent/fonts/Custom";
+        device = "${host.settings.persistPath}/fonts/Custom";
         fsType = "fuse.bindfs";
         options = [
           "ro"

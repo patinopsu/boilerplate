@@ -1,7 +1,7 @@
 { den, ... }: {
-  den.aspects.docker = { user, ... }: {
+  den.aspects.docker = { host, user, ... }: {
     nixos = {
-      preservation.preserveAt."/persistent".directories = [
+      preservation.preserveAt."${host.settings.persistPath}".directories = [
         "/var/lib/docker"
       ];
 

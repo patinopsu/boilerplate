@@ -1,5 +1,5 @@
 { den, inputs, self, ... }: {
-  den.aspects.niri = {
+  den.aspects.niri = { host, user, ... }: {
     includes = [
       den.aspects.i18n
       den.aspects.i2c
@@ -10,7 +10,7 @@
       den.aspects.noctalia-shell
     ];
 
-    nixos = { config, lib, pkgs, user, ... }: {
+    nixos = { config, lib, pkgs, ... }: {
       nixpkgs.overlays = [
         inputs.niri.overlays.niri
       ];

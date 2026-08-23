@@ -1,7 +1,7 @@
 { self, inputs, ... }:{
-  den.aspects.zsh = {
-    nixos = { user, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+  den.aspects.zsh = { host, user, ... }: {
+    nixos = {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".local/share/atuin"
           ".local/share/zoxide"
