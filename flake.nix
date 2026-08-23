@@ -51,10 +51,6 @@
       url = "github:vicinaehq/vicinae";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    kineticwe = {
-      url = "gitlab:theblackdon/kineticwe";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     gaze = {
       url = "github:GunduLabs/gaze";
       inputs.nixpkgs.follows = "nixpkgs";
