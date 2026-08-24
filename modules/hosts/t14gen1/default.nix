@@ -287,10 +287,10 @@
         '';
       };
     };
-    homeManager =  { lib, pkgs, ... }: {
+    homeManager = {
       programs.niri.settings = {
         input.trackpoint = {
-          accel-speed = 0.49;
+          accel-speed = 0.25;
           accel-profile = "adaptive";
         };
 
