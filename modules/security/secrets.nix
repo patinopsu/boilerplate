@@ -6,7 +6,6 @@
       ];
 
       sops = {
-        defaultSopsFile = ./secrets.yaml;
         age.keyFile = "${host.settings.persistPath}/secrets/age-key.txt";
         age.generateKey = false;
       };
