@@ -17,6 +17,16 @@
         inputs.zen-browser.homeModules.twilight-official
       ];
 
+      xdg.mimeApps = {
+        enable = true;
+        defaultApplications = {
+          "x-scheme-handler/http" = [ "helium.desktop" "zen-twilight.desktop" ];
+          "x-scheme-handler/https" = [ "helium.desktop" "zen-twilight.desktop" ];
+          "x-scheme-handler/about" = [ "helium.desktop" "zen-twilight.desktop" ];
+          "x-scheme-handler/unknown" = [ "helium.desktop" "zen-twilight.desktop" ];
+        };
+      };
+
       programs.zen-browser = {
         enable = true;
         policies = {
