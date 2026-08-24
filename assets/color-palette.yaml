@@ -1,6 +1,7 @@
 scheme: "Kataware Night"
 author: "Gemini"
 description: "A blend of Kimi no Na Wa twilight and Insomniacs After School stargazing vibes."
+variant: "dark"
 palette:
   base00: "111322" # Default Background - Deep Observatory Night
   base01: "1b1e34" # Lighter Background - Midnight Atmosphere
