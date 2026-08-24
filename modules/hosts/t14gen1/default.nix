@@ -91,6 +91,7 @@
 
       time.timeZone = "Asia/Bangkok";
       networking.hostName = "cygnus";
+      programs.captive-browser.interface = "wlp0s20f3";
 
       boot.lanzaboote.configurationLimit = 8;
       boot.lanzaboote.measuredBoot = {
