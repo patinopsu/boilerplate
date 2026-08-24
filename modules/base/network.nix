@@ -8,8 +8,6 @@
         ];
       };
 
-      programs.captive-browser.enable = true;
-
       networking = {
         networkmanager = {
           enable = true;
