@@ -27,6 +27,7 @@
       den.aspects.sudo
       den.aspects.secureboot
       den.aspects.gaze
+      den.aspects.secrets
 
       # --- Services --- #
       den.aspects.tailscale
