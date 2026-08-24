@@ -35,9 +35,6 @@
       den.aspects.tailscale
       den.aspects.captiveportal
 
-      # --- User --- #
-      den.aspects.patin
-
       # --- CLI / Programs --- #
       den.aspects.git
       den.aspects.flatpak

@@ -30,9 +30,6 @@
       den.aspects.docker
       den.aspects.tailscale
 
-      # --- User --- #
-      den.aspects.patin
-
       # --- CLI / Programs --- #
       den.aspects.git
       den.aspects.flatpak
