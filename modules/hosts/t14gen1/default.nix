@@ -22,6 +22,7 @@
       den.aspects.bluetooth
       den.aspects.intelgpu
       den.aspects.android
+      den.aspects.drawing-tablet
 
       # --- Security --- #
       den.aspects.hardening
