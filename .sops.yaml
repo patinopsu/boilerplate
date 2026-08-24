@@ -1,0 +1,8 @@
+keys:
+  - &primary age1erh7s2f5a6wfnu0lgzkn2gpunx4zjxxz3x2mf29htrmr5x2zhfus7fu6k5
+
+creation_rules:
+  - path_regex: secrets/nextdns-id.yaml$
+    key_groups:
+      - age:
+        - *primary
