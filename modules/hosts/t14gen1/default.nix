@@ -33,6 +33,7 @@
 
       # --- Services --- #
       den.aspects.tailscale
+      den.aspects.captiveportal
 
       # --- User --- #
       den.aspects.patin
