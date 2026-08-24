@@ -7,7 +7,7 @@
     };
   };
 
-  den.aspects.t14gen1 = {
+  den.aspects.t14gen1 = { host, ... }: {
     includes = [
       # --- Core --- #
       den.aspects.boot
@@ -154,6 +154,9 @@
         [app]
         shmFile=/dev/shm/looking-glass
       '';
+
+      fileSystems."/nix".neededForBoot = true;
+      fileSystems."${host.settings.persistPath}".neededForBoot = true;
 
       disko.devices.disk.main.device = "/dev/disk/by-id/nvme-KINGBANK_KP230_CP153BB2304897";
       disko.devices.disk.main.type = "disk";
