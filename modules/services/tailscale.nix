@@ -1,12 +1,29 @@
 {
   den.aspects.tailscale = { host, ... }: {
-    nixos = {
+    nixos = { config, ... }: {
       preservation.preserveAt."${host.settings.persistPath}".directories = [
         "/var/lib/tailscale"
       ];
 
-      services.tailscale.enable = true;
-      services.tailscale.extraUpFlags = [ "--ssh" "--accept-dns=true" ];
+      networking.search = [ "cymric-reedfish.ts.net" ];
+      networking.networkmanager = {
+        unmanaged = [
+          "tailscale0"
+        ];
+        appendNameservers = [
+          "100.100.100.100"
+        ];
+      };
+
+      networking.firewall = {
+        trustedInterfaces = [ "tailscale0" ];
+        allowedUDPPorts = [ config.services.tailscale.port ];
+      };
+
+      services.tailscale = {
+        enable = true;
+        extraUpFlags = [ "--ssh" "--accept-dns=false" ];
+      };
     };
   };
 }
