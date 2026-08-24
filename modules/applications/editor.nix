@@ -15,7 +15,6 @@
 
     homeManager = {
       programs.zed-editor.enable = true;
-      stylix.targets.zed.enable = false;
     };
   };
 }
