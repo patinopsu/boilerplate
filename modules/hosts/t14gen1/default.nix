@@ -2,6 +2,7 @@
   den.hosts.x86_64-linux.t14gen1 = {
     users.patin = {};
     settings = {
+      prettyName = "ThinkPad T14 Gen 1";
       persistPath = "/persistent";
     };
   };
