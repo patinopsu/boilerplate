@@ -1,11 +1,16 @@
 { inputs, ... }: {
   den.aspects.browsers = { host, user, ... }: {
-    nixos = {
+    nixos = { pkgs, ... }: {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".config/zen"
+          ".config/net.imput.helium"
         ];
       };
+
+      environment.systemPackages = [
+        inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
+      ];
     };
     homeManager = { lib, ... }: {
       imports = [
