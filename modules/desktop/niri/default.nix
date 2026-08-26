@@ -303,7 +303,7 @@
 
           window-rule {
             // Rounded corners for a modern look.
-            geometry-corner-radius 20
+            geometry-corner-radius 10
 
             // Clips window contents to the rounded corner boundaries.
             clip-to-geometry true
