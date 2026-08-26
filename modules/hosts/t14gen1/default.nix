@@ -76,9 +76,9 @@
       };
 
       boot.initrd.availableKernelModules = [ "tpm_tis" "xhci_pci" "nvme" "usbhid" "usb_storage" "rtsx_pci_sdmmc" "sd_mod" ];
-      boot.initrd.kernelModules = [ "dm-snapshot" "kvmfr" ];
+      boot.initrd.kernelModules = [ "dm-snapshot" ];
       boot.kernelModules = [ "kvm-intel" ];
-      boot.extraModulePackages = [ config.boot.kernelPackages.kvmfr ];
+      boot.extraModulePackages = [ ];
 
       users.users.${user.name} = {
         initialPassword = lib.mkForce null;
@@ -108,10 +108,6 @@
         ACTION=="add|change", KERNEL=="event[0-9]*", ENV{ID_PATH}=="platform-i8042-serio-1", ENV{ID_INPUT_POINTINGSTICK}="1"
       '';
 
-      systemd.tmpfiles.rules = [
-        "f /dev/shm/looking-glass 0660 ${user.name} kvm -"
-      ];
-
       services.throttled.enable = true;
 
       virtualisation.kvmgt.enable = true;
@@ -120,38 +116,6 @@
           uuid = [ "a297db4a-f4c2-11e6-90f6-d3b88d6c9525" ];
         };
       };
-
-      services.udev.packages = lib.singleton (pkgs.writeTextFile
-        {
-          name = "kvmfr";
-          text = ''
-            SUBSYSTEM=="kvmfr", GROUP="kvm", MODE="0660", TAG+="uaccess"
-          '';
-          destination = "/etc/udev/rules.d/70-kvmfr.rules";
-        }
-      );
-
-      virtualisation.libvirtd.qemu = {
-        verbatimConfig = ''
-          namespaces = []
-          cgroup_device_acl = [
-            "/dev/null", "/dev/full", "/dev/zero",
-            "/dev/random", "/dev/urandom",
-            "/dev/ptmx", "/dev/kvm", "/dev/kqemu",
-            "/dev/rtc","/dev/hpet", "/dev/vfio/vfio",
-            "/dev/kvmfr0"
-          ]
-        '';
-      };
-
-      environment.systemPackages = with pkgs; [
-        looking-glass-client
-      ];
-
-      environment.etc."looking-glass-client.ini".text = ''
-        [app]
-        shmFile=/dev/shm/looking-glass
-      '';
 
       fileSystems."/nix".neededForBoot = true;
       fileSystems."${host.settings.persistPath}".neededForBoot = true;
@@ -289,30 +253,28 @@
       };
     };
     homeManager = {
-      programs.niri.settings = {
-        input.trackpoint = {
-          accel-speed = 0.25;
-          accel-profile = "adaptive";
-        };
-
-        binds = {
-          "XF86Display" = {
-            hotkey-overlay.title = "Duplicate Internal Display to External Display";
-            action.spawn = [ "noctalia" "msg" "panel-toggle" "elijaharch/wl-screen-mirror:controls"  ];
+      wayland.windowManager.niri = {
+        settings = {
+          input.trackpoint = {
+            accel-speed = 0.25;
+            accel-profile = "adaptive";
           };
 
-          "XF86NotificationCenter" = {
-            hotkey-overlay.title = "Open Display Configuration";
-            action.spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel"  ];
-          };
-        };
+          binds = {
+            "XF86Display" = {
+              hotkey-overlay.title = "Duplicate Internal Display to External Display";
+              spawn = [ "noctalia" "msg" "panel-toggle" "elijaharch/wl-screen-mirror:controls"  ];
+            };
 
-        outputs."eDP-1" = {
-          enable = true;
-          scale = 1.2;
-          mode = {
-            width = 1920;
-            height = 1080;
+            "XF86NotificationCenter" = {
+              hotkey-overlay.title = "Open Display Configuration";
+              spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel"  ];
+            };
+          };
+
+          output."eDP-1" = {
+            mode = { width = 1920; height = 1080; };
+            scale = 1.2;
           };
         };
       };
