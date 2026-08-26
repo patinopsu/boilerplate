@@ -1,5 +1,5 @@
-{ den, inputs, ... }: {
-  den.aspects.niri = { user, ... }: {
+{ den, ... }: {
+  den.aspects.niri = { host, user, ... }: {
     includes = [
       den.aspects.i18n
       den.aspects.i2c
@@ -16,12 +16,17 @@
     ];
 
     nixos = { pkgs, ... }: {
-      preservation.preserveAt."/persistent".users.${user.name} = {
+      preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
-          ".config/autostart"
-          ".local/share/applications"
-          ".local/share/keyrings"
+          "/var/lib/AccountsService"
         ];
+        users.${user.name} = {
+          directories = [
+            ".config/autostart"
+            ".local/share/applications"
+            ".local/share/keyrings"
+          ];
+        };
 
         files = [
           { file = ".config/user-dirs.dirs"; how = "symlink"; }
@@ -53,7 +58,7 @@
       ];
     };
 
-    homeManager = { pkgs, ... }: {
+    homeManager = {
       wayland.windowManager.niri = {
         enable = true;
         settings = {
