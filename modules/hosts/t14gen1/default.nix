@@ -16,6 +16,7 @@
       den.aspects.nix
       den.aspects.niri
       den.aspects.virtualization
+      den.aspects.plymouth
 
       # --- Hardware Driver --- #
       den.aspects.audio
@@ -262,20 +263,25 @@
 
           binds = {
             "XF86Display" = {
-              hotkey-overlay.title = "Duplicate Internal Display to External Display";
-              spawn = [ "noctalia" "msg" "panel-toggle" "elijaharch/wl-screen-mirror:controls"  ];
+              _props.hotkey-overlay-title = "Duplicate Internal Display to External Display";
+              spawn = [ "noctalia" "msg" "panel-toggle" "elijaharch/wl-screen-mirror:controls" ];
             };
 
             "XF86NotificationCenter" = {
-              hotkey-overlay.title = "Open Display Configuration";
-              spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel"  ];
+              _props.hotkey-overlay-title = "Open Display Configuration";
+              spawn = [ "noctalia" "msg" "panel-toggle" "raycursive/niri-displays:panel" ];
             };
           };
 
-          output."eDP-1" = {
-            mode = { width = 1920; height = 1080; };
-            scale = 1.2;
-          };
+          _children = [
+            {
+              output = {
+                _args = [ "eDP-1" ];
+                mode._args = [ "1920x1080@60.000" ];
+                scale = 1.2;
+              };
+            }
+          ];
         };
       };
 
