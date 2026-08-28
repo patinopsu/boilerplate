@@ -55,11 +55,7 @@
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t14-intel-gen1
       ];
 
-      boot.kernelParams = [
-        "i915.enable_gvt=1"
-        "psmouse.proto=imps"
-        "kvmfr.static_size_mb=64"
-      ];
+      boot.kernelParams = [ "psmouse.proto=imps" ];
 
       services.upower.enable = true;
 
@@ -110,13 +106,6 @@
       '';
 
       services.throttled.enable = true;
-
-      virtualisation.kvmgt.enable = true;
-      virtualisation.kvmgt.vgpus = {
-        "i915-GVTg_V5_8" = {
-          uuid = [ "a297db4a-f4c2-11e6-90f6-d3b88d6c9525" ];
-        };
-      };
 
       fileSystems."/nix".neededForBoot = true;
       fileSystems."${host.settings.persistPath}".neededForBoot = true;
@@ -231,7 +220,7 @@
             mv /btrfs_tmp/@root "/btrfs_tmp/@old_roots/$timestamp"
           fi
 
-          # Helper function to delete nested btrfs subvolumes
+          # Helper function to delete nested btrfs subvolumes   q
           delete_subvolume_recursively() {
             IFS=$'\n'
             for i in $(btrfs subvolume list -o "$1" | cut -f 9- -d ' '); do
@@ -253,7 +242,16 @@
         '';
       };
     };
+
     homeManager = {
+      xdg.userDirs = {
+        enable = true;
+        download = "/mnt/d/Downloads";
+        projects = "/mnt/d/Projects";
+        pictures = "/mnt/d/Pictures";
+        videos = "/mnt/d/Videos";
+        music = "/mnt/d/Music";
+      };
       wayland.windowManager.niri = {
         settings = {
           input.trackpoint = {
