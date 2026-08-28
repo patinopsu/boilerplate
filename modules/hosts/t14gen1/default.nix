@@ -245,6 +245,7 @@
     homeManager = {
       xdg.userDirs = {
         enable = true;
+        documents = "/mnt/d/Documents";
         download = "/mnt/d/Downloads";
         projects = "/mnt/d/Projects";
         pictures = "/mnt/d/Pictures";
