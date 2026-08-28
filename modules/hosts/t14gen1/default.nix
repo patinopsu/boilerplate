@@ -78,8 +78,8 @@
       boot.extraModulePackages = [ ];
 
       users.users.${user.name} = {
-        initialPassword = lib.mkForce null;
-        hashedPassword = lib.mkForce "$y$j9T$mehwnm0lpqvh.8WtIMkhw1$m4NYRPfsbuK.HGGk0Q7dwA9OGnbrHYWOZbFvE3mJxu2";
+        initialPassword = null;
+        hashedPassword = "$y$j9T$mehwnm0lpqvh.8WtIMkhw1$m4NYRPfsbuK.HGGk0Q7dwA9OGnbrHYWOZbFvE3mJxu2";
       };
 
       hardware.enableAllFirmware = true;
@@ -148,7 +148,6 @@
           };
         };
       };
-
 
       disko.devices.lvm_vg.pool.type = "lvm_vg";
 
@@ -252,6 +251,7 @@
         videos = "/mnt/d/Videos";
         music = "/mnt/d/Music";
       };
+
       wayland.windowManager.niri = {
         settings = {
           input.trackpoint = {
