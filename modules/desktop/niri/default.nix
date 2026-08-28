@@ -114,7 +114,7 @@
 
             "Mod+E" = {
               _props.hotkey-overlay-title = "Open File Manager";
-              spawn-sh = "yazi";
+              spawn-sh = "kitty -e yazi";
             };
 
             "Mod+V" = {
@@ -198,7 +198,7 @@
             "Ctrl+Print" = {
               _props = {
                 allow-when-locked = false;
-                hotkey-overlay-title = "Screenshot Region";
+                hotkey-overlay-title = "Record Current Focused Screen";
               };
               spawn = ["noctalia" "msg" "plugin" "noctalia/screen_recorder:service" "all" "toggle"];
             };
