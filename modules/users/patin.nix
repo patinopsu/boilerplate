@@ -7,7 +7,7 @@
       (den.batteries.user-shell "zsh")
     ];
 
-    nixos = {
+    nixos = { lib, ... }: {
       preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".ssh"
@@ -16,11 +16,10 @@
       };
 
       users.mutableUsers = false;
-
       users.users.${user.name} = {
         isNormalUser = true;
         description = "Patin Muangjan";
-	      initialPassword = "changeme";
+	      initialPassword = lib.mkDefault "changeme";
         extraGroups = ["wheel"];
       };
     };
