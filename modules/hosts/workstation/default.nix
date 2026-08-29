@@ -4,6 +4,7 @@
     users.patin = {};
     settings = {
       persistPath = "/persistent";
+      prettyName = "Workstation";
     };
   };
 
