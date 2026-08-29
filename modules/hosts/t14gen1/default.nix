@@ -34,6 +34,7 @@
 
       # --- Services --- #
       den.aspects.tailscale
+      den.aspects.docker
       den.aspects.captiveportal
 
       # --- CLI / Programs --- #
@@ -41,6 +42,7 @@
       den.aspects.flatpak
       den.aspects.browsers
       den.aspects.zsh
+      den.aspects.distrobox
       den.aspects.kitty
       den.aspects.vscode
       den.aspects.proton-pass-cli
@@ -80,6 +82,7 @@
       users.users.${user.name} = {
         initialPassword = null;
         hashedPassword = "$y$j9T$mehwnm0lpqvh.8WtIMkhw1$m4NYRPfsbuK.HGGk0Q7dwA9OGnbrHYWOZbFvE3mJxu2";
+        extraGroups = [ "dialout" ];
       };
 
       hardware.enableAllFirmware = true;
@@ -150,7 +153,6 @@
       };
 
       disko.devices.lvm_vg.pool.type = "lvm_vg";
-
       disko.devices.lvm_vg.pool.lvs.sys = {
         size = "160G";
         content = {
