@@ -54,7 +54,7 @@
 
       boot.initrd.availableKernelModules = [ "xhci_pci" "ahci" "nvme" "usb_storage" "usbhid" "sd_mod" ];
       boot.initrd.kernelModules = [ ];
-      boot.kernelModules = [ "kvm-intel" ];
+      boot.kernelModules = [ "kvm-intel" "ntsync" ];
       boot.extraModulePackages = [ ];
 
       boot.kernelParams = [ "i915.enable_guc=3" "i915.enable_psr=0" "i915.enable_fbc=1" ];
