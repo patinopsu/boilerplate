@@ -6,6 +6,8 @@
       hardware.nvidia = {
         open = true;
         branch = "bleeding_edge";
+        powerManagement.enable = true;
+        dynamicBoost.enable = true;
       };
     };
   };
