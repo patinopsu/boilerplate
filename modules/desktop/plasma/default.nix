@@ -5,6 +5,7 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
+      den.aspects.input-method
     ];
 
     nixos = { pkgs, user, ... }: {
