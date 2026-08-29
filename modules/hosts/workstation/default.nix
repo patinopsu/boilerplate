@@ -27,6 +27,7 @@
       den.aspects.hardening
       den.aspects.sudo
       den.aspects.secureboot
+      den.aspects.secrets
 
       # --- Services --- #
       den.aspects.docker
