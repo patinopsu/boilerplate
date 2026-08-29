@@ -15,12 +15,6 @@
           appendNameservers = [
             "127.0.0.53"
           ];
-
-          settings."connectivity" = {
-            enabled = true;
-            uri = "http://nmcheck.gnome.org/check_network_status.txt";
-            response = "OK";
-          };
         };
 
         firewall.enable = true;
