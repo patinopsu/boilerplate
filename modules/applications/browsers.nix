@@ -12,7 +12,7 @@
         inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
       ];
     };
-    homeManager = { lib, ... }: {
+    homeManager = {
       imports = [
         inputs.zen-browser.homeModules.twilight-official
       ];
@@ -48,9 +48,7 @@
           ];
         };
       };
-      home.sessionVariables = {
-        MOZ_DISABLE_RDD_SANDBOX = lib.mkDefault "1";
-      };
+      stylix.targets.zen-browser.enable = false;
     };
   };
 }
