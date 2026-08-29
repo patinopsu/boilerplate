@@ -54,10 +54,6 @@
       url = "github:noctalia-dev/noctalia";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    vicinae = {
-      url = "github:vicinaehq/vicinae";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     gaze = {
       url = "github:GunduLabs/gaze";
       inputs.nixpkgs.follows = "nixpkgs";
