@@ -45,6 +45,7 @@
       den.aspects.vicinae
       den.aspects.distrobox
       den.aspects.syncthing
+      den.aspects.spotify
     ];
 
     nixos = { config, lib, ... }: {
