@@ -8,35 +8,16 @@
 
       preserveAt."${host.settings.persistPath}" = {
         directories = [
-          "/etc/nixos"
           "/etc/nix"
-          {
-            directory = "/var/lib/backlight";
-            inInitrd = true;
-          }
-          {
-            directory = "/var/lib/systemd/timers";
-            inInitrd = true;
-          }
-          {
-            directory = "/var/lib/coredump";
-            inInitrd = true;
-          }
-          {
-            directory = "/var/lib/timesync";
-            inInitrd = true;
-          }
-          {
-            directory = "/var/lib/nixos";
-            inInitrd = true;
-          }
+          { directory = "/var/lib/nixos"; inInitrd = true; }
+          { directory = "/var/lib/systemd/backlight"; inInitrd = true; }
+          { directory = "/var/lib/systemd/timers"; inInitrd = true; }
+          { directory = "/var/lib/systemd/coredump"; inInitrd = true; }
+          { directory = "/var/lib/systemd/timesync"; inInitrd = true; }
         ];
         files = [
           "/var/lib/systemd/credential.secret"
-          {
-            file = "/etc/machine-id";
-            inInitrd = true;
-          }
+          { file = "/etc/machine-id"; inInitrd = true; }
         ];
       };
     };

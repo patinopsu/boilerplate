@@ -1,9 +1,11 @@
 {
   den.aspects.docker = { host, user, ... }: {
     nixos = {
-      preservation.preserveAt."${host.settings.persistPath}".directories = [
-        "/var/lib/docker"
-      ];
+      preservation.preserveAt."${host.settings.persistPath}" = {
+        directories = [
+          "/var/lib/docker"
+        ];
+      };
 
       virtualisation.docker = {
         enable = true;

@@ -13,21 +13,13 @@
       preservation.preserveAt."/persistent" = {
         directories = [
           "/var/lib/AccountsService"
-          {
-            directory = "/var/lib/plasmalogin";
-            user = "plasmalogin";
-            group = "plasmalogin";
-          }
+          { directory = "/var/lib/plasmalogin"; user = "plasmalogin"; group = "plasmalogin"; }
         ];
       };
 
       preservation.preserveAt."/persistent".users.${user.name} = {
         directories = [
-          ".config/KDE"
-          ".config/kde.org"
-          ".config/kate"
-          ".config/klassy"
-
+          ".config/autostart"
           ".local/share/klipper"
           ".local/share/dolphin"
           ".local/share/kwalletd"
@@ -60,7 +52,7 @@
           { file = ".config/kactivitymanagerd-statsrc"; how = "symlink"; }
           #  file = ".config/ktimezonedrc"; how = "symlink"; }
           { file = ".config/kscreenlockerrc"; how = "symlink"; }
-          # { file = ".config/ksmserverrc"; how = "symlink"; }
+          { file = ".config/ksmserverrc"; how = "symlink"; }
 
           # Power & Hardware
           { file = ".config/powerdevilrc"; how = "symlink"; }
@@ -85,7 +77,7 @@
           { file = ".config/okularpartrc"; how = "symlink"; }
           # { file = ".config/khelpcenterrc"; how = "symlink"; }
           { file = ".config/kiorc"; how = "symlink"; }
-          # { file = ".config/krunnerrc"; how = "symlink"; }      # Alt+Space search runner
+          { file = ".config/krunnerrc"; how = "symlink"; }      # Alt+Space search runner
           { file = ".config/plasmanotifyrc"; how = "symlink"; } # Notifications
           # { file = ".config/plasmaparc"; how = "symlink"; }     # Plasma audio/multimedia
           # { file = ".config/systemmonitorrc"; how = "symlink"; }
@@ -113,7 +105,7 @@
         kate
         konsole
         khelpcenter
-        krunner
+        discover
       ];
     };
   };
