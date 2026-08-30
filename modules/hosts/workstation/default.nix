@@ -46,6 +46,7 @@
       den.aspects.distrobox
       den.aspects.syncthing
       den.aspects.spotify
+      den.aspects.gaming-meta
     ];
 
     nixos = { config, lib, ... }: {
