@@ -3,7 +3,7 @@
     nixos = {
       i18n = {
         defaultLocale = "en_US.UTF-8";
-        extraLocales = ["th_TH.UTF-8/UTF-8"];
+        extraLocales = ["th_TH.UTF-8/UTF-8" "ja_JP.UTF-8/UTF-8" ];
         extraLocaleSettings = {
           LC_MESSAGES = "en_US.UTF-8";
           LC_CTYPE = "en_US.UTF8";
