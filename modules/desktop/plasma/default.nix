@@ -1,25 +1,24 @@
 { inputs, den, ... }: {
-  den.aspects.plasma = {
+  den.aspects.plasma = { host, user, ... }: {
     includes = [
       den.aspects.i18n
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
-
       den.aspects.input-method
       den.aspects.kitty
       den.aspects.mpv
     ];
 
     nixos = { pkgs, user, ... }: {
-      preservation.preserveAt."/persistent" = {
+      preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/var/lib/AccountsService"
           { directory = "/var/lib/plasmalogin"; user = "plasmalogin"; group = "plasmalogin"; }
         ];
       };
 
-      preservation.preserveAt."/persistent".users.${user.name} = {
+      preservation.preserveAt."${host.settings.persistPath}".users.${user.name} = {
         directories = [
           ".config/autostart"
           ".local/share/klipper"
