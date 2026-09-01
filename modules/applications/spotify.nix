@@ -17,7 +17,7 @@
         enable = true;
         alwaysEnableDevTools = true;
         experimentalFeatures = true;
-        spotifyLaunchFlags = "--disable-gpu --use-gl=swiftshader";
+        spotifyLaunchFlags = "--disable-gpu";
         theme = spicePkgs.themes.hazy;
         enabledExtensions = with spicePkgs.extensions; [
           adblockify
