@@ -5,8 +5,10 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
-      den.aspects.file-manager
+
       den.aspects.input-method
+      den.aspects.kitty
+      den.aspects.mpv
     ];
 
     nixos = { pkgs, user, ... }: {

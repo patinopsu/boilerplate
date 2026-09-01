@@ -11,8 +11,10 @@
       den.aspects.file-manager
       den.aspects.document-viewer
       den.aspects.image-viewer
-
       den.aspects.gpu-screen-recorder
+      den.aspects.kitty
+      den.aspects.mpv
+      den.aspects.vicinae
     ];
 
     nixos = { pkgs, ... }: {
@@ -27,10 +29,6 @@
             ".local/share/keyrings"
           ];
         };
-
-        files = [
-          { file = ".config/user-dirs.dirs"; how = "symlink"; }
-        ];
       };
 
       services = {

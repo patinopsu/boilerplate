@@ -43,12 +43,10 @@
       den.aspects.browsers
       den.aspects.zsh
       den.aspects.distrobox
-      den.aspects.kitty
       den.aspects.vscode
       den.aspects.proton-pass-cli
-      den.aspects.mpv
-      den.aspects.vicinae
       den.aspects.syncthing
+      den.aspects.spotify
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
@@ -60,6 +58,16 @@
       boot.kernelParams = [ "psmouse.proto=imps" ];
 
       services.upower.enable = true;
+      services.tlp.settings = {
+        CPU_ENERGY_PERF_POLICY_ON_AC = "";
+        CPU_ENERGY_PERF_POLICY_ON_BAT = "balance_performance";
+        DISK_APM_LEVEL_ON_BAT = "254 254";
+        PLATFORM_PROFILE_ON_BAT= "balanced";
+        INTEL_GPU_POWER_PROFILE_ON_BAT= "balance";
+        SOUND_POWER_SAVE_ON_AC = 0;
+        SOUND_POWER_SAVE_ON_BAT = 0;
+        SOUND_POWER_SAVE_CONTROLLER = "N";
+      };
 
       hardware.graphics.extraPackages = lib.mkForce (with pkgs; [
         vpl-gpu-rt
@@ -221,7 +229,7 @@
             mv /btrfs_tmp/@root "/btrfs_tmp/@old_roots/$timestamp"
           fi
 
-          # Helper function to delete nested btrfs subvolumes   q
+          # Helper function to delete nested btrfs subvolumes
           delete_subvolume_recursively() {
             IFS=$'\n'
             for i in $(btrfs subvolume list -o "$1" | cut -f 9- -d ' '); do
@@ -230,9 +238,9 @@
             btrfs subvolume delete "$1"
           }
 
-          # Delete archived roots older than 30 days
+          # Delete archived roots older than 7 days
           if [[ -d /btrfs_tmp/@old_roots ]]; then
-            for i in $(find /btrfs_tmp/@old_roots/ -maxdepth 1 -mindepth 1 -mtime +30); do
+            for i in $(find /btrfs_tmp/@old_roots/ -maxdepth 1 -mindepth 1 -mtime +7); do
               delete_subvolume_recursively "$i"
             done
           fi

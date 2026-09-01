@@ -38,11 +38,8 @@
       den.aspects.flatpak
       den.aspects.browsers
       den.aspects.zsh
-      den.aspects.kitty
       den.aspects.vscode
       den.aspects.proton-pass-cli
-      den.aspects.mpv
-      den.aspects.vicinae
       den.aspects.distrobox
       den.aspects.syncthing
       den.aspects.spotify
