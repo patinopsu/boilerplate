@@ -10,7 +10,7 @@
       den.aspects.mpv
     ];
 
-    nixos = { pkgs, user, ... }: {
+    nixos = { pkgs, ... }: {
       preservation.preserveAt."${host.settings.persistPath}" = {
         directories = [
           "/var/lib/AccountsService"
