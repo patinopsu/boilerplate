@@ -22,6 +22,7 @@
       den.aspects.intelgpu
       den.aspects.nvidia
       den.aspects.android
+      den.aspects.drawing-tablet
 
       # --- Security --- #
       den.aspects.hardening
