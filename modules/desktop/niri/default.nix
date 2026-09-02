@@ -5,6 +5,7 @@
       den.aspects.i2c
       den.aspects.fonts
       den.aspects.stylix
+      den.aspects.input-method
       den.aspects.noctalia-shell
 
       den.aspects.mimeapps
@@ -69,8 +70,8 @@
               repeat-delay = 500;
 
               xkb = {
-                layout = "us,th";
-                options = "caps:none,grp:alt_caps_toggle,grp:caps_toggle,grp:shift_caps_toggle";
+                layout = "us";
+                options = "caps:none";
               };
             };
           };
