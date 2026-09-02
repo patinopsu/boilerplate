@@ -47,7 +47,7 @@
       den.aspects.proton-pass-cli
       den.aspects.syncthing
       den.aspects.spotify
-      den.aspects.okudera
+      den.aspects.seanime
     ];
 
     nixos = { config, lib, pkgs, user, ... }: {
